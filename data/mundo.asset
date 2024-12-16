@@ -1,0 +1,1107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6aba75b5115694bbefa6d2116e37f4, type: 3}
+  m_Name: mundo
+  m_EditorClassIdentifier: 
+  dataMapa:
+  - codigo: EMIRATOS-ARABES
+    tipo: 0
+    Nombre: EMIRATOS ARABES unidos
+    superficie: "83,600 km\xB2"
+    municipios: "\xC1rabe"
+    capital: "Dub\xE1i"
+    bandera: {fileID: 0}
+  - codigo: AFGANISTAN
+    tipo: 0
+    Nombre: "Emirato isl\xE1mico de afganist\xE1n"
+    superficie: "652,864 km\xB2"
+    municipios: "Past\xFAn y dar\xED"
+    capital: Kabul
+    bandera: {fileID: 0}
+  - codigo: ALBANIA
+    tipo: 0
+    Nombre: "REP\xDABLICA DE ALBANIA"
+    superficie: "28,748 km\xB2"
+    municipios: "Alban\xE9s"
+    capital: Tirana
+    bandera: {fileID: 0}
+  - codigo: ARMENIA
+    tipo: 0
+    Nombre: "REP\xDABLICA DE ARMENIA"
+    superficie: "29,743 km\xB2"
+    municipios: Armenio
+    capital: "Erev\xE1n"
+    bandera: {fileID: 0}
+  - codigo: AUSTRIA
+    tipo: 0
+    Nombre: AUSTRIA
+    superficie: "83,87 km\xB2"
+    municipios: "Alem\xE1n"
+    capital: Viena
+    bandera: {fileID: 0}
+  - codigo: BOSNIA
+    tipo: 0
+    Nombre: BOSNIA Y HERZEGOVINA
+    superficie: "57,197 KM\xB2"
+    municipios: Bosnio
+    capital: Sarajevo
+    bandera: {fileID: 0}
+  - codigo: BANGLADESH
+    tipo: 0
+    Nombre: "Rep\xFAblica popular de banglad\xE9s"
+    superficie: "148,460 km\xB2"
+    municipios: "Bengal\xED"
+    capital: Daca
+    bandera: {fileID: 0}
+  - codigo: BELGICA
+    tipo: 0
+    Nombre: "REINO DE B\xC9LGICA"
+    superficie: "30,528 km\xB2"
+    municipios: "Neerland\xE9s"
+    capital: Bruselas
+    bandera: {fileID: 0}
+  - codigo: BURKINAFASO
+    tipo: 0
+    Nombre: BURKINA FASO
+    superficie: "247,200 km\xB2"
+    municipios: "Franc\xE9s"
+    capital: "Uagadug\xFA"
+    bandera: {fileID: 0}
+  - codigo: BULGARIA
+    tipo: 0
+    Nombre: BULGARIA
+    superficie: "110,879 km\xB2"
+    municipios: "B\xFAlgaro"
+    capital: "Sof\xEDa"
+    bandera: {fileID: 0}
+  - codigo: BURUNDI
+    tipo: 0
+    Nombre: BURUNDI
+    superficie: "27,834 km\xB2"
+    municipios: Kirundi
+    capital: Guitega
+    bandera: {fileID: 0}
+  - codigo: BENIN
+    tipo: 0
+    Nombre: "BEN\xCDN"
+    superficie: "112,622 km\xB2"
+    municipios: "Franc\xE9s"
+    capital: Porto Novo
+    bandera: {fileID: 0}
+  - codigo: BRUNEI
+    tipo: 0
+    Nombre: "BRUN\xC9I DARUSALAM"
+    superficie: "5,765 km\xB2"
+    municipios: Malayo
+    capital: Bnadar Seri Begawan
+    bandera: {fileID: 0}
+  - codigo: BOLIVIA
+    tipo: 0
+    Nombre: BOLIVIA
+    superficie: "1,098,581 km\xB2"
+    municipios: "Espa\xF1ol"
+    capital: Sucre
+    bandera: {fileID: 0}
+  - codigo: BRAZIL
+    tipo: 0
+    Nombre: BRASIL
+    superficie: "8,515,770 km\xB2"
+    municipios: "Portugu\xE9s"
+    capital: Brasilia
+    bandera: {fileID: 0}
+  - codigo: BHUTAN
+    tipo: 0
+    Nombre: "REINO DE BHUT\xC1N"
+    superficie: "40,994 km\xB2"
+    municipios: Dzongkha
+    capital: Timbu
+    bandera: {fileID: 0}
+  - codigo: BOTSWANA
+    tipo: 0
+    Nombre: BOTSUANA
+    superficie: "581,730 km\xB2"
+    municipios: "Ingl\xE9s"
+    capital: Gaborone
+    bandera: {fileID: 0}
+  - codigo: BIELORRUSIA
+    tipo: 0
+    Nombre: BIELORRUSIA
+    superficie: "207,600 km\xB2"
+    municipios: Bielorruso
+    capital: Minsk
+    bandera: {fileID: 0}
+  - codigo: BELICE
+    tipo: 0
+    Nombre: BELICE
+    superficie: "22,966 km\xB2"
+    municipios: "Ingl\xE9s"
+    capital: "Belmop\xE1n"
+    bandera: {fileID: 0}
+  - codigo: REP-CONGO
+    tipo: 0
+    Nombre: "REP\xDABLICA DEMOCR\xC1TICA DEL CONGO"
+    superficie: "2,344,858 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Kinsasa
+    bandera: {fileID: 0}
+  - codigo: CENTROAFRICANA
+    tipo: 0
+    Nombre: "REP\xDABLICA CENTROAFRICANA"
+    superficie: "622,984 km \xB2"
+    municipios: Sango
+    capital: Bangui
+    bandera: {fileID: 0}
+  - codigo: CONGO
+    tipo: 0
+    Nombre: "REP\xDABLICA DEL CONGO"
+    superficie: "342,000 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Brazzaville
+    bandera: {fileID: 0}
+  - codigo: SUIZA
+    tipo: 0
+    Nombre: "CONFEDERACI\xD3N SUIZA"
+    superficie: "42,277 km \xB2"
+    municipios: "Alem\xE1n"
+    capital: Berna
+    bandera: {fileID: 0}
+  - codigo: COSTA-MARFIL
+    tipo: 0
+    Nombre: COSTA DE MARFIL
+    superficie: "322,464 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Yamusukro
+    bandera: {fileID: 0}
+  - codigo: CAMERUN
+    tipo: 0
+    Nombre: "CAMER\xDAN"
+    superficie: "466,050 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: "Yaund\xE9"
+    bandera: {fileID: 0}
+  - codigo: COLOMBIA
+    tipo: 0
+    Nombre: COLOMBIA
+    superficie: "1,141,748 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: "Bogot\xE1"
+    bandera: {fileID: 0}
+  - codigo: COSTA-RICA
+    tipo: 0
+    Nombre: COSTA RICA
+    superficie: "51,179 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: "San Jos\xE9"
+    bandera: {fileID: 0}
+  - codigo: CUBA
+    tipo: 0
+    Nombre: CUBA
+    superficie: "109,884 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: La Habana
+    bandera: {fileID: 0}
+  - codigo: ANGOLA
+    tipo: 0
+    Nombre: ANGOLA
+    superficie: "1,246,700 km \xB2"
+    municipios: "Portugu\xE9s"
+    capital: Luanda
+    bandera: {fileID: 0}
+  - codigo: ARGENTINA
+    tipo: 0
+    Nombre: ARGENTINA
+    superficie: "2,780,400 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Buenos Aires
+    bandera: {fileID: 0}
+  - codigo: AUSTRALIA
+    tipo: 0
+    Nombre: MANCOMUNIDAD DE AUSTRALIA
+    superficie: "7,741,220 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Canberra
+    bandera: {fileID: 0}
+  - codigo: AZERBAIYAN
+    tipo: 0
+    Nombre: "AZERBAIY\xC1N"
+    superficie: "86,600 km \xB2"
+    municipios: "Azer\xED"
+    capital: "Bak\xFA"
+    bandera: {fileID: 0}
+  - codigo: CANADA
+    tipo: 0
+    Nombre: "CANAD\xC1"
+    superficie: "9,984,670 km \xB2"
+    municipios: "Ingl\xE9s y Franc\xE9s"
+    capital: Ottawa
+    bandera: {fileID: 0}
+  - codigo: CHINA
+    tipo: 0
+    Nombre: "REP\xDABLICA POPULAR CHINA"
+    superficie: "9,596,960 km \xB2"
+    municipios: "Chino Mandar\xEDn"
+    capital: "Pek\xEDn"
+    bandera: {fileID: 0}
+  - codigo: DINAMARCA
+    tipo: 0
+    Nombre: DINAMARCA
+    superficie: "42,952 km \xB2"
+    municipios: "Dan\xE9s"
+    capital: Copenhague
+    bandera: {fileID: 0}
+  - codigo: REINO-UNIDO
+    tipo: 0
+    Nombre: "REINO UNIDO DE GRAN BRETA\xD1A E IRLANDA DEL NORTE"
+    superficie: "243,610 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Londres
+    bandera: {fileID: 0}
+  - codigo: GRECIA
+    tipo: 0
+    Nombre: GRECIA
+    superficie: "131,957 km \xB2"
+    municipios: Griego
+    capital: Atenas
+    bandera: {fileID: 0}
+  - codigo: INDONESIA
+    tipo: 0
+    Nombre: INDONESIA
+    superficie: "1,904,569 km \xB2"
+    municipios: Indonedio
+    capital: Yakarta
+    bandera: {fileID: 0}
+  - codigo: ITALIA
+    tipo: 0
+    Nombre: ITALIA
+    superficie: "301,340 km \xB2"
+    municipios: Italiano
+    capital: Roma
+    bandera: {fileID: 0}
+  - codigo: JAPON
+    tipo: 0
+    Nombre: "JAP\xD3N"
+    superficie: "377,975 km \xB2"
+    municipios: "Japon\xE9s"
+    capital: Tokio
+    bandera: {fileID: 0}
+  - codigo: MALASIA
+    tipo: 0
+    Nombre: MALASIA
+    superficie: "330,830 km \xB2"
+    municipios: Malayo
+    capital: Kuala Lumpur
+    bandera: {fileID: 0}
+  - codigo: NORUEGA
+    tipo: 0
+    Nombre: REINO DE NORUEGA
+    superficie: "323,802 km \xB2"
+    municipios: Noruego
+    capital: Oslo
+    bandera: {fileID: 0}
+  - codigo: OMAN
+    tipo: 0
+    Nombre: "OM\xC1N"
+    superficie: "309,501 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Mascate
+    bandera: {fileID: 0}
+  - codigo: FILIPINAS
+    tipo: 0
+    Nombre: FILIPINAS
+    superficie: "300,000 km \xB2"
+    municipios: Filipino
+    capital: Manila
+    bandera: {fileID: 0}
+  - codigo: NUEVA-GUINEA
+    tipo: 0
+    Nombre: "PAP\xDAA NUEVA GUINEA"
+    superficie: "462,840 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Puerto Moresby
+    bandera: {fileID: 0}
+  - codigo: TURQUIA
+    tipo: 0
+    Nombre: "TURQU\xCDA"
+    superficie: "783,562 km \xB2"
+    municipios: Turco
+    capital: Ankara
+    bandera: {fileID: 0}
+  - codigo: BULGARIA
+    tipo: 0
+    Nombre: BULGARIA
+    superficie: "110,879 km \xB2"
+    municipios: "B\xFAlgaro"
+    capital: "Sof\xEDa"
+    bandera: {fileID: 0}
+  - codigo: NUEVA-ZELANDA
+    tipo: 0
+    Nombre: NUEVA ZELANDA
+    superficie: "268,838 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Wellington
+    bandera: {fileID: 0}
+  - codigo: CHILE
+    tipo: 0
+    Nombre: CHILE
+    superficie: "756,102 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Santiago
+    bandera: {fileID: 0}
+  - codigo: RUSIA
+    tipo: 0
+    Nombre: "FEDERACI\xD3N DE RUSIA"
+    superficie: "17,125,191 km \xB2"
+    municipios: Ruso
+    capital: "Mosc\xFA"
+    bandera: {fileID: 0}
+  - codigo: FRANCIA
+    tipo: 0
+    Nombre: FRANCIA
+    superficie: "675,417 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: "Par\xEDs"
+    bandera: {fileID: 0}
+  - codigo: USA
+    tipo: 0
+    Nombre: "ESTADOS UNIDOS DE AM\xC9RICA"
+    superficie: "9,147,593 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Washington D.C.
+    bandera: {fileID: 0}
+  - codigo: ALASKA
+    tipo: 0
+    Nombre: ALASKA
+    superficie: "1,717,854 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Juneau
+    bandera: {fileID: 0}
+  - codigo: PUERTO-RICO
+    tipo: 0
+    Nombre: PUERTO RICO
+    superficie: "9,158 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: San Juan
+    bandera: {fileID: 0}
+  - codigo: REP-CHECA
+    tipo: 0
+    Nombre: "REP\xDABLICA CHECA"
+    superficie: "78,871 km \xB2"
+    municipios: Checo
+    capital: Praga
+    bandera: {fileID: 0}
+  - codigo: ALEMANIA
+    tipo: 0
+    Nombre: ALEMANIA
+    superficie: "357,375 km \xB2"
+    municipios: "Alem\xE1n"
+    capital: "Berl\xEDn"
+    bandera: {fileID: 0}
+  - codigo: REP-DOMINICANA
+    tipo: 0
+    Nombre: "REP\xDABLICA DOMINICANA"
+    superficie: "48,442 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Santo Domingo
+    bandera: {fileID: 0}
+  - codigo: ARGELIA
+    tipo: 0
+    Nombre: ARGELIA
+    superficie: "2,381,741 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Argel
+    bandera: {fileID: 0}
+  - codigo: ECUADOR
+    tipo: 0
+    Nombre: ECUADOR
+    superficie: "256,370 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Quito
+    bandera: {fileID: 0}
+  - codigo: ESTONIA
+    tipo: 0
+    Nombre: ESTONIA
+    superficie: "45,228 km \xB2"
+    municipios: Estonio
+    capital: Tallin
+    bandera: {fileID: 0}
+  - codigo: EGIPTO
+    tipo: 0
+    Nombre: EGIPTO
+    superficie: "996,603 km \xB2"
+    municipios: "\xC1rabe"
+    capital: El Cairo
+    bandera: {fileID: 0}
+  - codigo: SAHARA
+    tipo: 0
+    Nombre: SAHARA OCCIDENTAL
+    superficie: "266,000km \xB2"
+    municipios: "\xC1rabe"
+    capital: "El Aai\xFAn"
+    bandera: {fileID: 0}
+  - codigo: ERITREA
+    tipo: 0
+    Nombre: ERITREA
+    superficie: "117,600 km \xB2"
+    municipios: "Tigri\xF1a"
+    capital: Asmara
+    bandera: {fileID: 0}
+  - codigo: "ESPA\xD1A"
+    tipo: 0
+    Nombre: "ESPA\xD1A"
+    superficie: "505,944 km \xB2"
+    municipios: Castellano
+    capital: Madrid
+    bandera: {fileID: 0}
+  - codigo: ETIOPIA
+    tipo: 0
+    Nombre: "ETIOP\xCDA"
+    superficie: "1,063,652 km \xB2"
+    municipios: "Amh\xE1rico"
+    capital: "Ad\xEDs Abeba"
+    bandera: {fileID: 0}
+  - codigo: FINLANDIA
+    tipo: 0
+    Nombre: FINLANDIA
+    superficie: "338,145 km \xB2"
+    municipios: "Fin\xE9s"
+    capital: Helsinki
+    bandera: {fileID: 0}
+  - codigo: GABON
+    tipo: 0
+    Nombre: "GAB\xD3N"
+    superficie: "267,667 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Libreville
+    bandera: {fileID: 0}
+  - codigo: GEORGIA
+    tipo: 0
+    Nombre: GEORGIA
+    superficie: "69,700 km \xB2"
+    municipios: Georgiano
+    capital: Tiflis
+    bandera: {fileID: 0}
+  - codigo: GUAYANA
+    tipo: 0
+    Nombre: GUAYANA
+    superficie: "83,846 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Cayena
+    bandera: {fileID: 0}
+  - codigo: GHANA
+    tipo: 0
+    Nombre: GHANA
+    superficie: 238,533
+    municipios: "Ingl\xE9s"
+    capital: Acra
+    bandera: {fileID: 0}
+  - codigo: GROENLANDIA
+    tipo: 0
+    Nombre: GROENLANDIA
+    superficie: "2,175,600 km \xB2"
+    municipios: "Groenland\xE9s"
+    capital: Nuuk
+    bandera: {fileID: 0}
+  - codigo: GAMBIA
+    tipo: 0
+    Nombre: GAMBIA
+    superficie: "10,689 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Banjul
+    bandera: {fileID: 0}
+  - codigo: GUINEA
+    tipo: 0
+    Nombre: GUINEA
+    superficie: "245,857 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Conakri
+    bandera: {fileID: 0}
+  - codigo: GUINEA-ECUATORIAL
+    tipo: 0
+    Nombre: GUINEA ECUATORIAL
+    superficie: "28,052 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Malabo
+    bandera: {fileID: 0}
+  - codigo: GUATEMALA
+    tipo: 0
+    Nombre: GUATEMALA
+    superficie: "108,889 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Ciudad de Guatemala
+    bandera: {fileID: 0}
+  - codigo: BISSAU
+    tipo: 0
+    Nombre: "GUINEA BIS\xC1U"
+    superficie: "36, 125 km \xB2"
+    municipios: "Portugu\xE9s"
+    capital: "Bis\xE1u"
+    bandera: {fileID: 0}
+  - codigo: GUYANA
+    tipo: 0
+    Nombre: GUYANA
+    superficie: "214,969 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Georgetown
+    bandera: {fileID: 0}
+  - codigo: HONDURAS
+    tipo: 0
+    Nombre: HONDURAS
+    superficie: "112,777 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Tegucigalpa
+    bandera: {fileID: 0}
+  - codigo: CROACIA
+    tipo: 0
+    Nombre: CROACIA
+    superficie: "56,594 km \xB2"
+    municipios: Croata
+    capital: Zagreb
+    bandera: {fileID: 0}
+  - codigo: HAITI
+    tipo: 0
+    Nombre: "HAIT\xCD"
+    superficie: "27,755 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: "Puerto Pr\xEDncipe"
+    bandera: {fileID: 0}
+  - codigo: HUNGRIA
+    tipo: 0
+    Nombre: "HUNGR\xCDA"
+    superficie: "93,025 km \xB2"
+    municipios: "H\xFAngaro"
+    capital: Budapest
+    bandera: {fileID: 0}
+  - codigo: IRLANDA
+    tipo: 0
+    Nombre: IRLANDA
+    superficie: "70,273 km \xB2"
+    municipios: "Irland\xE9s"
+    capital: "Dubl\xEDn"
+    bandera: {fileID: 0}
+  - codigo: ISRAEL
+    tipo: 0
+    Nombre: ISRAEL
+    superficie: "22,145 km \xB2"
+    municipios: Hebreo
+    capital: "Jerusal\xE9n"
+    bandera: {fileID: 0}
+  - codigo: INDIA
+    tipo: 0
+    Nombre: INDIA
+    superficie: "3,287,263 km \xB2"
+    municipios: Hindi
+    capital: Nueva Delhi
+    bandera: {fileID: 0}
+  - codigo: IRAQ
+    tipo: 0
+    Nombre: IRAK
+    superficie: "438,317 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Bagdad
+    bandera: {fileID: 0}
+  - codigo: IRAN
+    tipo: 0
+    Nombre: "IR\xC1N"
+    superficie: "1,648,195 km \xB2"
+    municipios: Persa
+    capital: "Teher\xE1n"
+    bandera: {fileID: 0}
+  - codigo: ISLANDIA
+    tipo: 0
+    Nombre: ISLANDIA
+    superficie: "103,000 km \xB2"
+    municipios: "Island\xE9s"
+    capital: Reikiavik
+    bandera: {fileID: 0}
+  - codigo: JAMAICA
+    tipo: 0
+    Nombre: JAMAICA
+    superficie: "10,991 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Kingston
+    bandera: {fileID: 0}
+  - codigo: JORDANIA
+    tipo: 0
+    Nombre: JORDANIA
+    superficie: "89,342 km \xB2"
+    municipios: "\xC1rabe"
+    capital: "Am\xE1n"
+    bandera: {fileID: 0}
+  - codigo: KENIA
+    tipo: 0
+    Nombre: KENIA
+    superficie: "591,958 km \xB2"
+    municipios: Suajili
+    capital: Nairobi
+    bandera: {fileID: 0}
+  - codigo: KIRGUISTAN
+    tipo: 0
+    Nombre: "KIRGUIST\xC1N"
+    superficie: "199,951 km \xB2"
+    municipios: "Kirgu\xEDs"
+    capital: Biskek
+    bandera: {fileID: 0}
+  - codigo: CAMBOYA
+    tipo: 0
+    Nombre: CAMBOYA
+    superficie: "181,035 km \xB2"
+    municipios: Jemer
+    capital: Nom Pen
+    bandera: {fileID: 0}
+  - codigo: REP-COREA
+    tipo: 0
+    Nombre: COREA DEL NORTE
+    superficie: "120,540 km \xB2"
+    municipios: Coreano
+    capital: Pionyang
+    bandera: {fileID: 0}
+  - codigo: KOREA
+    tipo: 0
+    Nombre: COREA DEL SUR
+    superficie: "100,339 km \xB2"
+    municipios: Coreano
+    capital: "Se\xFAl"
+    bandera: {fileID: 0}
+  - codigo: KUWAI
+    tipo: 0
+    Nombre: KUWAIT
+    superficie: "17,818 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Ciudad de Kuwait
+    bandera: {fileID: 0}
+  - codigo: KAZAJSTAN
+    tipo: 0
+    Nombre: "KAZAJIST\xC1N"
+    superficie: "2,724,900 km \xB2"
+    municipios: Kazajo
+    capital: "Astan\xE1"
+    bandera: {fileID: 0}
+  - codigo: LAOS
+    tipo: 0
+    Nombre: LAOS
+    superficie: "236,800 km \xB2"
+    municipios: Lao
+    capital: "Vienti\xE1n"
+    bandera: {fileID: 0}
+  - codigo: LIBANO
+    tipo: 0
+    Nombre: LIBANO
+    superficie: "10,400 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Beirut
+    bandera: {fileID: 0}
+  - codigo: SRI-LANKA
+    tipo: 0
+    Nombre: SRI LANKA
+    superficie: "65,610 km \xB2"
+    municipios: "Cingal\xE9s"
+    capital: Kotte
+    bandera: {fileID: 0}
+  - codigo: LIBERIA
+    tipo: 0
+    Nombre: LIBERIA
+    superficie: "111,369 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Monrovia
+    bandera: {fileID: 0}
+  - codigo: LESOTHO
+    tipo: 0
+    Nombre: LESOTHO
+    superficie: "30,355 km \xB2"
+    municipios: Sesoto
+    capital: Maseru
+    bandera: {fileID: 0}
+  - codigo: LITUANIA
+    tipo: 0
+    Nombre: LITUANIA
+    superficie: "65,300 km \xB2"
+    municipios: Lituano
+    capital: Vilna
+    bandera: {fileID: 0}
+  - codigo: LETONIA
+    tipo: 0
+    Nombre: LETONIA
+    superficie: "64,589 km \xB2"
+    municipios: "Let\xF3n"
+    capital: Riga
+    bandera: {fileID: 0}
+  - codigo: LIBIA
+    tipo: 0
+    Nombre: LIBIA
+    superficie: "1,759,198 km \xB2"
+    municipios: "\xC1rabe"
+    capital: "Tr\xEDpoli"
+    bandera: {fileID: 0}
+  - codigo: MARRUECOS
+    tipo: 0
+    Nombre: MARRUECOS
+    superficie: "446,550 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Rabat
+    bandera: {fileID: 0}
+  - codigo: MOLDAVIA
+    tipo: 0
+    Nombre: MOLDAVIA
+    superficie: "33,851 km \xB2"
+    municipios: Rumano
+    capital: "Chisin\xE1u"
+    bandera: {fileID: 0}
+  - codigo: MONTENEGRO
+    tipo: 0
+    Nombre: MONTENEGRO
+    superficie: "13,812 km \xB2"
+    municipios: Montenegrino
+    capital: Podgorica
+    bandera: {fileID: 0}
+  - codigo: MADAGASCAR
+    tipo: 0
+    Nombre: MADAGASCAR
+    superficie: "587,040 km \xB2"
+    municipios: Malgache
+    capital: Antananarivo
+    bandera: {fileID: 0}
+  - codigo: MALI
+    tipo: 0
+    Nombre: MALI
+    superficie: "1,241,238 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Bamako
+    bandera: {fileID: 0}
+  - codigo: MYANMAR
+    tipo: 0
+    Nombre: MYANMAR
+    superficie: "676,578 km \xB2"
+    municipios: Birmano
+    capital: "Rang\xFAn"
+    bandera: {fileID: 0}
+  - codigo: MONGOLIA
+    tipo: 0
+    Nombre: MONGOLIA
+    superficie: "1,564,116 km \xB2"
+    municipios: Mongol
+    capital: "Ul\xE1n Bator"
+    bandera: {fileID: 0}
+  - codigo: MAURITANIA
+    tipo: 0
+    Nombre: MAURITANIA
+    superficie: "1,030,700 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Nuakchot
+    bandera: {fileID: 0}
+  - codigo: MALAWI
+    tipo: 0
+    Nombre: MALAWI
+    superficie: "118,484 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Lilongue
+    bandera: {fileID: 0}
+  - codigo: MEXICO
+    tipo: 0
+    Nombre: "M\xC9XICO"
+    superficie: "1,964,375 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: "Ciudad de M\xE9xico"
+    bandera: {fileID: 0}
+  - codigo: MOZANBIQUE
+    tipo: 0
+    Nombre: MOZANBIQUE
+    superficie: "799,380 km \xB2"
+    municipios: "Portugu\xE9s"
+    capital: Maputo
+    bandera: {fileID: 0}
+  - codigo: NAMIBIA
+    tipo: 0
+    Nombre: NAMIBIA
+    superficie: "824,292 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Windhoek
+    bandera: {fileID: 0}
+  - codigo: NIGER
+    tipo: 0
+    Nombre: "N\xCDGER"
+    superficie: "1,267,000 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Niamey
+    bandera: {fileID: 0}
+  - codigo: NIGERIA
+    tipo: 0
+    Nombre: NIGERIA
+    superficie: "923,768 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Abuya
+    bandera: {fileID: 0}
+  - codigo: NICARAGUA
+    tipo: 0
+    Nombre: NICARAGUA
+    superficie: "130,374 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Managua
+    bandera: {fileID: 0}
+  - codigo: PAISES-BAJOS
+    tipo: 0
+    Nombre: "PA\xCDSES BAJOS"
+    superficie: "41,543 km \xB2"
+    municipios: "Neerland\xE9s"
+    capital: "\xC1msterdam"
+    bandera: {fileID: 0}
+  - codigo: NEPAL
+    tipo: 0
+    Nombre: NEPAL
+    superficie: "147,181 km \xB2"
+    municipios: "Nepal\xED"
+    capital: "Katmand\xFA"
+    bandera: {fileID: 0}
+  - codigo: PANAMA
+    tipo: 0
+    Nombre: "PANAM\xC1"
+    superficie: "75,517 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: "Ciudad de Panam\xE1"
+    bandera: {fileID: 0}
+  - codigo: PERU
+    tipo: 0
+    Nombre: "PER\xDA"
+    superficie: "1,285,215 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Lima
+    bandera: {fileID: 0}
+  - codigo: PAKISTAN
+    tipo: 0
+    Nombre: "PAKIST\xC1N"
+    superficie: "881,913 km \xB2"
+    municipios: Urdu
+    capital: Islamabad
+    bandera: {fileID: 0}
+  - codigo: POLONIA
+    tipo: 0
+    Nombre: POLONIA
+    superficie: "312,696 km \xB2"
+    municipios: Polaco
+    capital: Varsovia
+    bandera: {fileID: 0}
+  - codigo: PORTUGAL
+    tipo: 0
+    Nombre: PORTUGAL
+    superficie: "92,212 km \xB2"
+    municipios: "Portugu\xE9s"
+    capital: Lisboa
+    bandera: {fileID: 0}
+  - codigo: PARAGUAY
+    tipo: 0
+    Nombre: PARAGUAY
+    superficie: "406,752 km \xB2"
+    municipios: Castellano
+    capital: "Asunci\xF3n"
+    bandera: {fileID: 0}
+  - codigo: RUMANIA
+    tipo: 0
+    Nombre: RUMANIA
+    superficie: "238,397 km \xB2"
+    municipios: Rumano
+    capital: Bucarest
+    bandera: {fileID: 0}
+  - codigo: SERBIA
+    tipo: 0
+    Nombre: SERBIA
+    superficie: "88,361 km \xB2"
+    municipios: Serbio
+    capital: Belgrado
+    bandera: {fileID: 0}
+  - codigo: ARABIA-SAUDITA
+    tipo: 0
+    Nombre: ARABIA SAUDITA
+    superficie: "2,149,690 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Riad
+    bandera: {fileID: 0}
+  - codigo: SUDAN
+    tipo: 0
+    Nombre: "SUD\xC1N"
+    superficie: "1,861,484 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Jartum
+    bandera: {fileID: 0}
+  - codigo: SUECIA
+    tipo: 0
+    Nombre: SUECIA
+    superficie: "450,295 km \xB2"
+    municipios: Sueco
+    capital: Estocolmo
+    bandera: {fileID: 0}
+  - codigo: ESLOVAQUIA
+    tipo: 0
+    Nombre: ESLOVAQUIA
+    superficie: "49,035 km \xB2"
+    municipios: Eslovaco
+    capital: Bratislava
+    bandera: {fileID: 0}
+  - codigo: SIERRA-LEONA
+    tipo: 0
+    Nombre: SIERRA LEONA
+    superficie: "71,740 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Freetown
+    bandera: {fileID: 0}
+  - codigo: SENEGAL
+    tipo: 0
+    Nombre: SENEGAL
+    superficie: "196,722 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Dakar
+    bandera: {fileID: 0}
+  - codigo: SOMALIA
+    tipo: 0
+    Nombre: SOMALIA
+    superficie: "637,657 km \xB2"
+    municipios: "Somal\xED"
+    capital: Mogadiscio
+    bandera: {fileID: 0}
+  - codigo: SURINAN
+    tipo: 0
+    Nombre: SURINAM
+    superficie: "163,820 km \xB2"
+    municipios: "Neerland\xE9s"
+    capital: "Param\xE1ribo"
+    bandera: {fileID: 0}
+  - codigo: SALVADOR
+    tipo: 0
+    Nombre: EL SALVADOR
+    superficie: "21,041 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: San Salvador
+    bandera: {fileID: 0}
+  - codigo: SIRIA
+    tipo: 0
+    Nombre: SIRIA
+    superficie: "185,180 km \xB2"
+    municipios: "\xC1rabe"
+    capital: Damasco
+    bandera: {fileID: 0}
+  - codigo: SWAZILANDIA
+    tipo: 0
+    Nombre: SUAZILANDIA
+    superficie: "17,364 km \xB2"
+    municipios: Suazi
+    capital: Mbabane
+    bandera: {fileID: 0}
+  - codigo: CHAD
+    tipo: 0
+    Nombre: CHAD
+    superficie: "1,284,000 km \xB2"
+    municipios: "Franc\xE9s"
+    capital: Yamena
+    bandera: {fileID: 0}
+  - codigo: TOGO
+    tipo: 0
+    Nombre: TOGO
+    superficie: 56,785
+    municipios: "Franc\xE9s"
+    capital: "Lom\xE9"
+    bandera: {fileID: 0}
+  - codigo: TAILANDIA
+    tipo: 0
+    Nombre: TAILANDIA
+    superficie: "513,120 km \xB2"
+    municipios: "Tailand\xE9s"
+    capital: Bangkok
+    bandera: {fileID: 0}
+  - codigo: TAYIKISTAN
+    tipo: 0
+    Nombre: "TAYIKIST\xC1N"
+    superficie: "144,100 km \xB2"
+    municipios: Tayiko
+    capital: "Dusamb\xE9"
+    bandera: {fileID: 0}
+  - codigo: TURKMENISTAN
+    tipo: 0
+    Nombre: "TURKMENIST\xC1N"
+    superficie: "488,100 km \xB2"
+    municipios: Turcomano
+    capital: Asjabad
+    bandera: {fileID: 0}
+  - codigo: TUNEZ
+    tipo: 0
+    Nombre: "T\xDANEZ"
+    superficie: "153,510 km \xB2"
+    municipios: "\xC1rabe"
+    capital: "T\xFAnez"
+    bandera: {fileID: 0}
+  - codigo: TANZANIA
+    tipo: 0
+    Nombre: TANZANIA
+    superficie: "947,300 km \xB2"
+    municipios: Suajili
+    capital: Dodoma
+    bandera: {fileID: 0}
+  - codigo: UCRANIA
+    tipo: 0
+    Nombre: UCRANIA
+    superficie: "603,700 km \xB2"
+    municipios: Ucraniano
+    capital: Kiev
+    bandera: {fileID: 0}
+  - codigo: UGANDA
+    tipo: 0
+    Nombre: UGANDA
+    superficie: "241,038 km \xB2"
+    municipios: Suajili
+    capital: Kampala
+    bandera: {fileID: 0}
+  - codigo: URUGUAY
+    tipo: 0
+    Nombre: URUGUAY
+    superficie: "176,215 km \xB2"
+    municipios: "Espa\xF1ol"
+    capital: Montevideo
+    bandera: {fileID: 0}
+  - codigo: UZBEKISTAN
+    tipo: 0
+    Nombre: "UZBEKIST\xC1N"
+    superficie: "447,400 km \xB2"
+    municipios: Uzbeko
+    capital: Taskent
+    bandera: {fileID: 0}
+  - codigo: VEENZUELA
+    tipo: 0
+    Nombre: VENEZUELA
+    superficie: "916,445 km \xB2"
+    municipios: Castellano
+    capital: Caracas
+    bandera: {fileID: 0}
+  - codigo: VIETNAN
+    tipo: 0
+    Nombre: VIETNAM
+    superficie: "331,210 km \xB2"
+    municipios: Vietnamita
+    capital: "Han\xF3i"
+    bandera: {fileID: 0}
+  - codigo: YEMEN
+    tipo: 0
+    Nombre: YEMEN
+    superficie: "527,968 km \xB2"
+    municipios: "\xC1rabe"
+    capital: "San\xE1"
+    bandera: {fileID: 0}
+  - codigo: SUDAFRICA
+    tipo: 0
+    Nombre: "SUD\xC1FRICA"
+    superficie: "1,219,090 km \xB2"
+    municipios: "Zul\xFA"
+    capital: Pretoria
+    bandera: {fileID: 0}
+  - codigo: ZAMBIA
+    tipo: 0
+    Nombre: ZAMBIA
+    superficie: "752,618 km \xB2"
+    municipios: "Ingl\xE9s"
+    capital: Lusaka
+    bandera: {fileID: 0}

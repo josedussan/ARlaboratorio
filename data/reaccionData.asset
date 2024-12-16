@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4cabeab0968ed43abe0f3a0829fcc4, type: 3}
+  m_Name: reaccionData
+  m_EditorClassIdentifier: 
+  reacciones:
+  - idReaccion: oxigenoCarbono
+    ecuacion: C + O<sub>2</sub> CO<sub>2</sub>
+    tipoReaccion: "Reacci\xF3n de Adici\xF3n"
+    explicacionReaccion: {fileID: 8300000, guid: af0a09c0db3cd924ab2bb1a2355dfb20, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}
+  - idReaccion: hidrogenoOxigeno
+    ecuacion: 2H<sub>2</sub> + O<sub>2</sub> 2H<sub>2</sub>O
+    tipoReaccion: "Reacci\xF3n de Adici\xF3n"
+    explicacionReaccion: {fileID: 8300000, guid: ebb0f67cb2d906e41b176c349fd76470, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}
+  - idReaccion: metanoOxigeno
+    ecuacion: CH<sub>4</sub> + 2O<sub>2</sub> CO<sub>2</sub> + 2H<sub>2</sub>O
+    tipoReaccion: "Reacci\xF3n de Adici\xF3n"
+    explicacionReaccion: {fileID: 8300000, guid: ae251e6c734d870459b8cb50ae18ddc0, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}
+  - idReaccion: hierroOxigeno
+    ecuacion: 2Fe + O<sub>2</sub> 2FeO
+    tipoReaccion: "Reacci\xF3n Inorg\xE1nica Lenta"
+    explicacionReaccion: {fileID: 8300000, guid: c84ecbc824cc2484294163fa08fff483, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}
+  - idReaccion: acidoClorhidricoHidroxidoSodio
+    ecuacion: HCl + NaOH NaCl + H<sub>2</sub>O
+    tipoReaccion: "Reacci\xF3n Inorg\xE1nica \xC1cido-Base"
+    explicacionReaccion: {fileID: 8300000, guid: 24322f7c5c5ef504ca5a63156e0257f1, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}
+  - idReaccion: fluorHidrogeno
+    ecuacion: H<sub>2</sub> + F<sub>2</sub> 2HF + Calor
+    tipoReaccion: "Reacci\xF3n Inorg\xE1nica Exot\xE9rmica"
+    explicacionReaccion: {fileID: 8300000, guid: db3e127327e446340a84885f92538248, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}
+  - idReaccion: cloroHierro
+    ecuacion: 2Fe + 3Cl<sub>2</sub> 2FeCl<sub>3</sub>
+    tipoReaccion: "Reacci\xF3n Inorg\xE1nica de S\xEDntesis"
+    explicacionReaccion: {fileID: 8300000, guid: 714a585a1e1adcc40a34ba4ac935c1d0, type: 3}
+    simboloReaccionEcu: {fileID: 1391697233, guid: 159432490c9910245b7974b66659e5c9, type: 3}

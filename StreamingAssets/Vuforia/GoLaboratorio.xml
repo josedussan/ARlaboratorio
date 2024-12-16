@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="fluor" size="5.000000 7.221438"/>
+        <ImageTarget name="cloro" size="5.000000 7.221438"/>
+        <ImageTarget name="marcadorCarbono" size="5.000000 7.221438"/>
+        <ImageTarget name="hierro" size="5.000000 7.221438"/>
+        <ImageTarget name="corrienteelectrica" size="5.000000 7.221438"/>
+        <ImageTarget name="acidoclorhidrico" size="5.000000 7.221438"/>
+        <ImageTarget name="agua" size="5.000000 7.221438"/>
+        <ImageTarget name="hidroxidodesodio" size="5.000000 7.221438"/>
+        <ImageTarget name="marcadorHidrogeno" size="5.000000 7.221438"/>
+        <ImageTarget name="marcadorOxigeno" size="5.000000 7.221438"/>
+        <ImageTarget name="marcadorMetano" size="5.000000 7.221438"/>
+        <ImageTarget name="qrcode" size="5.000000 5.000000"/>
+        <ImageTarget name="cuoGo.Back" size="10.000000 10.000000"/>
+        <ImageTarget name="cuoGo.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="cuoGo.Left" size="10.000000 10.000000"/>
+        <ImageTarget name="cuoGo.Top" size="10.000000 10.000000"/>
+        <ImageTarget name="cuoGo.Bottom" size="10.000000 10.000000"/>
+        <ImageTarget name="cuoGo.Right" size="10.000000 10.000000"/>
+        <MultiTarget name="cuoGo">
+            <Part name="cuoGo.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cuoGo.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cuoGo.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="cuoGo.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+            <Part name="cuoGo.Top" translation="0 5.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cuoGo.Bottom" translation="0 -5.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

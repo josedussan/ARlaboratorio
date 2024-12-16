@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6aba75b5115694bbefa6d2116e37f4, type: 3}
+  m_Name: colombia
+  m_EditorClassIdentifier: 
+  dataMapa:
+  - codigo: CO-AMA
+    tipo: 1
+    Nombre: amazonas
+    superficie: "109,665 km\xB2"
+    municipios: 2
+    capital: Leticia
+    actividad: "extracci\xF3n de maderas, caucho y chicle, la caza, la pesca, la
+      agricultura de ma\xEDz, pl\xE1tano, arroz, ca\xF1a de az\xFAcar, \xF1ame, aguacate,
+      yuca, Cacao, pi\xF1a y otros frutales. Ganader\xEDa bovina, porcina y aves
+      de corral. El turismo ecol\xF3gico."
+    bandera: {fileID: -1233113284, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 5519c17ecbc43754a992a757205e03b8, type: 3}
+  - codigo: CO-ANT
+    tipo: 1
+    Nombre: antioquia
+    superficie: "23,818 km\xB2"
+    municipios: 125
+    capital: "Medell\xEDn"
+    actividad: Agropecuario, manufactura y comercio
+    bandera: {fileID: 252836061, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 7f87957334c1902419ea6810241269a1, type: 3}
+  - codigo: CO-ARA
+    tipo: 1
+    Nombre: arauca
+    superficie: "23,818 km\xB2"
+    municipios: 7
+    capital: Arauca
+    actividad: "la explotaci\xF3n petrolera, la ganader\xEDa, la agricultura, los
+      servicios y el comercio."
+    bandera: {fileID: 101510336, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 4ca0ecad0075d5f4994c5f2a466a2507, type: 3}
+  - codigo: CO-ATL
+    tipo: 1
+    Nombre: "atl\xE1ntico"
+    superficie: "3,386 km\xB2"
+    municipios: 23
+    capital: Barranquilla
+    actividad: "servicios, industria predominando sectores como: qu\xEDmico, farmac\xE9utico,
+      los alimentos, el metalmec\xE1nico, las bebidas y el papel, y actividades agropecuarias"
+    bandera: {fileID: 1046416358, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 528a9443284fafa49baccf8142d6ef7e, type: 3}
+  - codigo: CO-BOL
+    tipo: 1
+    Nombre: bolivar
+    superficie: "25,978 km\xB2"
+    municipios: 26
+    capital: Cartagena de Indias
+    actividad: "prestaci\xF3n de servicios, principalmente en el turismo y el comercio;
+      la industria, representada por la industria petroqu\xEDmica, especialmente
+      en el refinamiento de petr\xF3leo y la producci\xF3n de qu\xEDmicos y pl\xE1sticos.
+      Las actividades agropecuarias son en su mayor parte tradicionales, a excepci\xF3n
+      de algunos grandes cultivos de arroz. Otras fuentes de ingreso son la pesca
+      y la explotaci\xF3n de madera, as\xED como, la producci\xF3n de sal"
+    bandera: {fileID: 1810757671, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 09d91ab2567fc394cab75e99a9ef454d, type: 3}
+  - codigo: CO-BOY
+    tipo: 1
+    Nombre: boyaca
+    superficie: "23,189 km\xB2"
+    municipios: 123
+    capital: Tunja
+    actividad: "Agricultura, producci\xF3n pecuaria y la miner\xEDa."
+    bandera: {fileID: 135629506, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: b7b8f43a880498446bddea61dedacaad, type: 3}
+  - codigo: CO-CAL
+    tipo: 1
+    Nombre: caldas
+    superficie: "7,888 km\xB2"
+    municipios: 27
+    capital: Manizales
+    actividad: " prestaci\xF3n de servicios representado por el comercio, el transporte,
+      las comunicaciones y la banca, son un fuerte del departamento, y el sector
+      agropecuario representado principalmente por el caf\xE9, la ganader\xEDa, metalmec\xE1nica,
+      productos textiles, la miner\xEDa y el turismo."
+    bandera: {fileID: -1424572411, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 960c4b33d40efe949afec41ed0ad7253, type: 3}
+  - codigo: CO-CAQ
+    tipo: 1
+    Nombre: "CAQUET\xC1"
+    superficie: "88,965 km\xB2"
+    municipios: 16
+    capital: Florencia
+    actividad: "Ganader\xEDa, cultivos de arroz, pl\xE1tano, yuca, cacao y ca\xF1a
+      de az\xFAcar."
+    bandera: {fileID: -1673838660, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: c888f90178032ec46bf28f510cb97431, type: 3}
+  - codigo: CO-CAS
+    tipo: 1
+    Nombre: casanare
+    superficie: "44,640 km\xB2"
+    municipios: 19
+    capital: Yopal
+    actividad: "La ganader\xEDa extensiva, el cultivo de arroz, explotaci\xF3n de
+      petr\xF3leo, cultivo de palma de aceite y pi\xF1a."
+    bandera: {fileID: 765689041, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 742e9a77a961185409093bddb1b4795e, type: 3}
+  - codigo: CO-CAU
+    tipo: 1
+    Nombre: cauca
+    superficie: "29,308 km\xB2"
+    municipios: 42
+    capital: "Popay\xE1n"
+    actividad: "la producci\xF3n agr\xEDcola, especialmente de fique, ca\xF1a de
+      az\xFAcar, ca\xF1a panelera, caf\xE9, papa, ma\xEDz, yuca, frijol, tomate,
+      mora y esp\xE1rragos.\u200B Es tambi\xE9n muy importante la ganader\xEDa, y
+      sus derivaciones de productos c\xE1rnicos y l\xE1cteos."
+    bandera: {fileID: -92701199, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 06014168b0d3da441b12dfbf79f9fb20, type: 3}
+  - codigo: CO-CES
+    tipo: 1
+    Nombre: CESAR
+    superficie: "22,905 km\xB2"
+    municipios: 25
+    capital: Valledupar
+    actividad: "El agropecuario con El cultivo y procesamiento de algod\xF3n, las
+      palmas oleaginosas y otros productos agr\xEDcolas, los servicios y la miner\xEDa."
+    bandera: {fileID: 270745927, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 68be52d185ea9474a9c9d4bc839fd255, type: 3}
+  - codigo: CO-CHO
+    tipo: 1
+    Nombre: "choc\xF3"
+    superficie: "46,530 km\xB2"
+    municipios: 31
+    capital: "Quibd\xF3"
+    actividad: "La agricultura, se basa en cultivos de pl\xE1tano, yuca, banano y
+      algunos frutales t\xEDpicos de la regi\xF3n como boroj\xF3, chontaduro, pi\xF1a,
+      mara\xF1\xF3n, caimito, almiraj\xF3, lulo y otras; la miner\xEDa y el turismo."
+    bandera: {fileID: -824270396, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: de3b569711b7c8845a067059189f5eec, type: 3}
+  - codigo: CO-COR
+    tipo: 1
+    Nombre: "c\xF3rdoba"
+    superficie: "23,980 km\xB2"
+    municipios: 30
+    capital: "Monter\xEDa"
+    actividad: "La agricultura, la ganader\xEDa, industria pesquera, minera, hidroel\xE9ctrica,
+      maderera y manufacturera."
+    bandera: {fileID: -1187421508, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: ceeb40c8b7d73cb43ac66ec6a6f3969d, type: 3}
+  - codigo: CO-CUN
+    tipo: 1
+    Nombre: cundinamarca
+    superficie: "24,210 km\xB2"
+    municipios: 116
+    capital: "Bogot\xE1"
+    actividad: "Explotaci\xF3n de carb\xF3n, sal, cal, hierro, azufre, esmeraldas,
+      cuarzo, plomo, yeso, cobre y m\xE1rmol, productos agr\xEDcolas como: caf\xE9,
+      ma\xEDz, ca\xF1a de az\xFAcar, papa, cebada, trigo, yuca, algod\xF3n, arroz,
+      frijol y frutas,"
+    bandera: {fileID: 1159847454, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 46f9db535abc0274e9d8277ac9226b19, type: 3}
+  - codigo: CO-GUA
+    tipo: 1
+    Nombre: "guain\xEDa"
+    superficie: "72,238 km\xB2"
+    municipios: 2
+    capital: "In\xEDrida"
+    actividad: " la agricultura. la pesca, la ganader\xEDa y la producci\xF3n de
+      palma de chiquichiqui y el bejuco \"Yar\xE9\"."
+    bandera: {fileID: 2001143738, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 29b2bceda30941c4f838602d604190b8, type: 3}
+  - codigo: CO-GUV
+    tipo: 1
+    Nombre: guaviare
+    superficie: "53,460 km\xB2"
+    municipios: 4
+    capital: "San jos\xE9 del Guaviare"
+    actividad: "La agricultura, la ganader\xEDa y la pesca."
+    bandera: {fileID: 1207215142, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: b5d2e2f40fb48f748a73fe5cc2cf5457, type: 3}
+  - codigo: CO-HUI
+    tipo: 1
+    Nombre: huila
+    superficie: "19,890 km\xB2"
+    municipios: 37
+    capital: Neiva
+    actividad: "se soporta principalmente en el sector agropecuario, comercio-productos
+      y servicios, explotaci\xF3n petrolera y el sector de transporte, turismo y
+      comunicaciones."
+    bandera: {fileID: -1717771644, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 773b526637f250546a7d5d896eef925d, type: 3}
+  - codigo: CO-LAG
+    tipo: 1
+    Nombre: la guajira
+    superficie: "20,848 km\xB2"
+    municipios: 15
+    capital: Riohacha
+    actividad: "La miner\xEDa, explotaci\xF3n de sal marina, gas natural, cultivos
+      de yuca, banano y frutos tropicales, la ganader\xEDa y la pesca."
+    bandera: {fileID: -1218100784, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: cbac8966d579e0841990c393db6b912c, type: 3}
+  - codigo: CO-MAG
+    tipo: 1
+    Nombre: magdalena
+    superficie: "23,188 km\xB2"
+    municipios: 30
+    capital: Santa Marta
+    actividad: "actividades agropecuarias, ganaderas, tur\xEDsticas y portuarias.
+      Los productos que se cultivan son el algod\xF3n, arroz, banano, palma africana,
+      tabaco y algunos frutales."
+    bandera: {fileID: -1449040794, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: aff726946f4188d4ea40fce05beb0ea4, type: 3}
+  - codigo: CO-MET
+    tipo: 1
+    Nombre: meta
+    superficie: "82,805 km\xB2"
+    municipios: 29
+    capital: Villavicencio
+    actividad: "la agricultura, la ganader\xEDa, el petr\xF3leo, el comercio y la
+      industria."
+    bandera: {fileID: -2010201320, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 6cb94a01d9f1df341ba20b6e73979fd2, type: 3}
+  - codigo: CO-NAR
+    tipo: 1
+    Nombre: "nari\xF1o"
+    superficie: "33,268 km\xB2"
+    municipios: 64
+    capital: San Juan de Pasto
+    actividad: "Lo agropecuario. Los cultivos de papa, cacao, ma\xEDz, trigo, cebada
+      (uno de los pocos lugares de Colombia donde todav\xEDa subsisten estos cultivos),
+      caf\xE9, fr\xEDjol, pl\xE1tano, ca\xF1a panelera, palma aceitera, zanahoria,
+      olloco, arveja, haba y quinua. Las agroindustrias m\xE1s importantes son la
+      harinera y la aceitera, la  ganader\xEDa, la pesca fluvial y mar\xEDtima y
+      la miner\xEDa."
+    bandera: {fileID: -767980787, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 910192c0b27554442a0deb17d5df6d4a, type: 3}
+  - codigo: CO-NSA
+    tipo: 1
+    Nombre: norte de santander
+    superficie: "21,648 km\xB2"
+    municipios: 40
+    capital: "C\xFAcuta"
+    actividad: "Producc\xEDon de hidrocarburos, servicios comerciales, bancarios,
+      rurales y de trasnporte."
+    bandera: {fileID: -948841298, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 6b0390d85844c554496f933b6fc01db1, type: 3}
+  - codigo: CO-SANDRES
+    tipo: 1
+    Nombre: "San Andr\xE9s, Providencia y Santa Catalina"
+    superficie: "52,5 km\xB2"
+    municipios: 1
+    capital: "San Andr\xE9s"
+    actividad: Turismos y el comercio.
+    bandera: {fileID: 2041122566, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 52d47568c9bf64742b8f37318f7bbdbe, type: 3}
+  - codigo: CO-PUT
+    tipo: 1
+    Nombre: putumayo
+    superficie: "24,885 km\xB2"
+    municipios: 13
+    capital: Mocoa
+    actividad: "agricultura, pecuario y explotaci\xF3n petrolifera."
+    bandera: {fileID: -948034309, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: b6f4ce6b892eee749824856e9c5a2a38, type: 3}
+  - codigo: CO-QUI
+    tipo: 1
+    Nombre: "quind\xEDo"
+    superficie: "1,845 km\xB2"
+    municipios: 12
+    capital: Armenia
+    actividad: "Producci\xF3n de caf\xE9, cultivo de pl\xE1tano y banano, el turismo."
+    bandera: {fileID: -469435950, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 4385c1e6286cba34d9187287526efe78, type: 3}
+  - codigo: CO-RIS
+    tipo: 1
+    Nombre: risaralda
+    superficie: "4,140 km\xB2"
+    municipios: 14
+    capital: Pereira
+    actividad: " la agricultura, la ganader\xEDa, la industria, el comercio y en
+      los \xFAltimos a\xF1os, metal\xFArgica, la producci\xF3n de combustible."
+    bandera: {fileID: -726828643, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 6d21b7ef9015d514292a8cc63849fdd3, type: 3}
+  - codigo: CO-SAN
+    tipo: 1
+    Nombre: santander
+    superficie: "30,537 km\xB2"
+    municipios: 86
+    capital: Bucaramanga
+    actividad: "La agricultura, el turismo, la miner\xEDa, producci\xF3n de energ\xEDa
+      el\xE9ctrica, industrias petroqu\xEDmicas, metalmec\xE1nica y av\xEDcola."
+    bandera: {fileID: -189822095, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 932069fb8d73ec64e9d160bccb10d2f9, type: 3}
+  - codigo: CO-SUC
+    tipo: 1
+    Nombre: sucre
+    superficie: "10,670 km\xB2"
+    municipios: 26
+    capital: Sincelejo
+    actividad: "El comercio, producci\xF3n comercial, la ganader\xEDa, f\xE1bricas
+      manufactureras, pesca y la agricultura."
+    bandera: {fileID: -2029781754, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: c07186bbc2fc8a24894779d5260d499d, type: 3}
+  - codigo: CO-TOL
+    tipo: 1
+    Nombre: tolima
+    superficie: "23,562 km\xB2"
+    municipios: 47
+    capital: "Ibagu\xE9"
+    actividad: "Agroindustria, turismo, miner\xEDa y la industria textil."
+    bandera: {fileID: -1233669581, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 06255546ee9e8bd4ebe1c017223db298, type: 3}
+  - codigo: CO-VAC
+    tipo: 1
+    Nombre: valle del cauca
+    superficie: "22,195 km\xB2"
+    municipios: 42
+    capital: Cali
+    actividad: "Agricultura, la pesca, industria azucarera y farmac\xE9utica."
+    bandera: {fileID: 1101392208, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 3b47129b692adc348a6459d3d12efc18, type: 3}
+  - codigo: CO-VAU
+    tipo: 1
+    Nombre: "vaup\xE9s"
+    superficie: "54,135 km\xB2"
+    municipios: 3
+    capital: "Mit\xFA"
+    actividad: "La agricultura, siendo los principales cultivos yuca brava, yuca
+      dulce, ma\xEDz, pl\xE1tano, \xF1ame y frutas silvestres, la pesca y la explotaci\xF3n
+      forestal y el turismo."
+    bandera: {fileID: -433018298, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 3011ac8bb1aee2e408fed79f19443e71, type: 3}
+  - codigo: CO-VID
+    tipo: 1
+    Nombre: Vichada
+    superficie: "100,242 km\xB2"
+    municipios: 4
+    capital: "Puerto Carre\xF1o"
+    actividad: "La agricultura y la ganader\xEDa."
+    bandera: {fileID: -330150102, guid: 06b2d96741171e24fb47c009183c4e3c, type: 3}
+    musica: {fileID: 8300000, guid: 8f7dabb85c3ac324cb552915e557c2f3, type: 3}

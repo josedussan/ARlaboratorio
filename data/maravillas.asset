@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: maravillas
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 0
+    titulo: Taj Mahal
+    objeto: {fileID: 7774797291494646654, guid: d1fd05e25742a2e46b8b977548a0b798, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: f9a126c97b26b4145a1e8ff6899cad1e, type: 3}
+  - tipoBtn: 0
+    titulo: Torre Eiffel
+    objeto: {fileID: 7080192943422918546, guid: cb059e834e6a8c3489154bab3edfaf28, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: 1ac113071d1cc8043afeac12c5eceed2, type: 3}
+  - tipoBtn: 0
+    titulo: Coliseo
+    objeto: {fileID: 4601574727609514042, guid: 30c3de298ec021a479ca304e5de480e6, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: 1601b15d9cf13d744b62492a6150fc6c, type: 3}
+  - tipoBtn: 0
+    titulo: Muralla
+    objeto: {fileID: 2561926364857968844, guid: ea96971d60f40894c817ce3ee630917d, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: fdc27a240ca01684dbbb67b01bd098f4, type: 3}
+  - tipoBtn: 0
+    titulo: Cristo
+    objeto: {fileID: 2726194306428821177, guid: 5656b2111c4dec342a16c5ba4e6a56ec, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: a35ccbba712f9d149a0db455eb110c50, type: 3}
+  - tipoBtn: 0
+    titulo: "Chich\xE9n Itz\xE1"
+    objeto: {fileID: 8598093064057094168, guid: ee981f2ef7eded346bb93576ddb9698d, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: 9c140153f84cb0248974f7ff84eed577, type: 3}
+  - tipoBtn: 0
+    titulo: Petra
+    objeto: {fileID: 2418441530226459321, guid: b5f33c6fbe2dd9f48b794edaa92f4938, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 8300000, guid: 6781a7f2c56bf7541bc02d18be4f0499, type: 3}

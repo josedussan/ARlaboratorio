@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: celulas
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 0
+    titulo: "C\xE9lula animal"
+    objeto: {fileID: 4582455930143638651, guid: 13639b2e150b5814eab56b8282b3a635, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: "C\xE9lula vegetal"
+    objeto: {fileID: 8124150666003454043, guid: beb07fdb0050ada4ea52b0dd9022d7ca, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: "C\xE9lula bacterial"
+    objeto: {fileID: 8013113491654185943, guid: 5b96ffadd54c24949815eca837f62313, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: "C\xE9lula F\xFAngica"
+    objeto: {fileID: 8983055920281069641, guid: 8d38bfb05f29fe04d844376363dcd65d, type: 3}
+    image: {fileID: 0}

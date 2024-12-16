@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: poligonos
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 1
+    titulo: "Hept\xE1gono"
+    objeto: {fileID: 6999812701571275704, guid: 188ab0bb138601d4594de27ee302e949, type: 3}
+    image: {fileID: 1471927517, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+  - tipoBtn: 1
+    titulo: "Hex\xE1gono"
+    objeto: {fileID: 4366120242067930508, guid: e24830ed98efff34b8acf775d6a3b2ce, type: 3}
+    image: {fileID: 48501650, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+  - tipoBtn: 1
+    titulo: "Oct\xE1gono"
+    objeto: {fileID: 3036150124071733122, guid: 698df589c2ef3cf40b5567b2f81c241a, type: 3}
+    image: {fileID: 606296591, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+  - tipoBtn: 1
+    titulo: "Pent\xE1gono"
+    objeto: {fileID: 5647533222124476770, guid: 3fefb165c7390c740845d13510e83ef2, type: 3}
+    image: {fileID: -1746193668, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+  - tipoBtn: 1
+    titulo: "Tet\xE1gono"
+    objeto: {fileID: 6424191271378738199, guid: 61e7d4b7d0a80ea4e9e265dd0556e489, type: 3}
+    image: {fileID: 1063880872, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+  - tipoBtn: 1
+    titulo: "Tr\xEDgono"
+    objeto: {fileID: 5635151705970524303, guid: 117b3d454bbc977449f693ccad26e11b, type: 3}
+    image: {fileID: 1343859798, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+  - tipoBtn: 1
+    titulo: Trapecio
+    objeto: {fileID: 4949434825850248650, guid: 51cad8cd327146c4abeb73b824847a40, type: 3}
+    image: {fileID: -1584048967, guid: e948baaf51f10b747a12a313b660e920, type: 3}

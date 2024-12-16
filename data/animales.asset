@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: animales
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 1
+    titulo: Invertebrados
+    objeto: {fileID: 4890862566461103596, guid: 5f7f1eb9c2c1a5c43a167fb55db10093, type: 3}
+    image: {fileID: 1144306051, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: a00a48e7f3bb3b34385e949d189b1801, type: 3}
+  - tipoBtn: 1
+    titulo: Aves
+    objeto: {fileID: 6214993686510196538, guid: 1430fb523d115aa4c8fbc3129081043b, type: 3}
+    image: {fileID: -1915014626, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 3040faef276e0d0419df18efeb8d9ea8, type: 3}
+  - tipoBtn: 1
+    titulo: Reptiles
+    objeto: {fileID: 8886989456385499348, guid: a5f8ada2b84faa848a31a36ba38267d4, type: 3}
+    image: {fileID: -1391197191, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 2955d64b0bbd4d345ba19532118659e1, type: 3}
+  - tipoBtn: 1
+    titulo: Mamiferos
+    objeto: {fileID: 8960575068680818678, guid: e3f369a1a9edf274aaf6eb4427e5d704, type: 3}
+    image: {fileID: -1980447535, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 6ed44e6cc24e4fa4e8873461195fd0cf, type: 3}
+  - tipoBtn: 1
+    titulo: Peces
+    objeto: {fileID: 7594236833037224937, guid: bb1d6ffb1ecbcad469787eab95b7ea6f, type: 3}
+    image: {fileID: 98477340, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 24c7f534c836a614ab1a2614cdd83857, type: 3}
+  - tipoBtn: 1
+    titulo: Anfibio
+    objeto: {fileID: 7259198955762583642, guid: 412d83cca9526a84eb93b78dc9396caa, type: 3}
+    image: {fileID: 21300000, guid: 1f08340cb2e115c439d100172e1159d7, type: 3}
+    sonido: {fileID: 8300000, guid: 42d94203ac941574eb44c2f438882181, type: 3}

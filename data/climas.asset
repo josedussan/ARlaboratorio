@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a383744339edd184fbdd5b09d48f5723, type: 3}
+  m_Name: climas
+  m_EditorClassIdentifier: 
+  climas:
+  - titulo: Soleado
+    sonido: {fileID: 8300000, guid: 85326d81f0fc84144b8ce154c5d6afd3, type: 3}
+    objeto: {fileID: 793199887002186197, guid: f849d98f73510254397824db493bdd12, type: 3}
+  - titulo: Nublado
+    sonido: {fileID: 8300000, guid: 142279496d7f55145bcb88b5ac550770, type: 3}
+    objeto: {fileID: 7329075116852147051, guid: bbb5075ef4635db42aeba437c4fb782b, type: 3}
+  - titulo: Lluvioso
+    sonido: {fileID: 8300000, guid: 00e077dc3343e0446bf4c26cfa8e1c6f, type: 3}
+    objeto: {fileID: 1201249856521056653, guid: 2325e37b191947c40a58f67c6a953909, type: 3}
+  - titulo: Tormenta
+    sonido: {fileID: 8300000, guid: bdaf8c9691b4199458fa03b8c18094cf, type: 3}
+    objeto: {fileID: 5747002401206888064, guid: d3e1ba3e1b8b6b643a4af846f84f928e, type: 3}
+  - titulo: Nevado
+    sonido: {fileID: 8300000, guid: e0a01db0fd189824a8bd8c2f687466e9, type: 3}
+    objeto: {fileID: 2988319813494839864, guid: 32c0802a780f05a4db2856618cd8bb67, type: 3}
+  - titulo: Ventoso
+    sonido: {fileID: 8300000, guid: 654cfcc74a95b424282d1d76fa04fa3e, type: 3}
+    objeto: {fileID: 3010947491736422018, guid: b56df3193cfb31d42b843c39fb748e1e, type: 3}

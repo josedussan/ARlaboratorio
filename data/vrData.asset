@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 123202460d2fd5c4dad5a3f2031946dc, type: 3}
+  m_Name: vrData
+  m_EditorClassIdentifier: 
+  objetos:
+  - descripcion: "En nuestro planeta, es posible encontrar alcanos en el petr\xF3leo,
+      el gas natural y el biog\xE1s, entre otras fuentes. Tambi\xE9n se halla en
+      el est\xF3mago de las vacas como gas metano. Es importante destacar que se
+      han encontrado alcanos en otros planetas. Tales como: Urano, Neptuno, Saturno
+      y J\xFApiter. "
+    nombreEscena: alcanos
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 85f17ab1f6e3a4b409ac9b28070bd40e, type: 3}
+    image2: {fileID: 21300000, guid: 16870d103e74ebd42878876351889072, type: 3}
+  - descripcion: "La anatom\xEDa es una ciencia que estudia la estructura de los
+      seres vivos, esto es, la ubicaci\xF3n y disposici\xF3n de sus \xF3rganos y
+      la relaci\xF3n que existe entre ellos. Tambi\xE9n se llama anatom\xEDa a la
+      propia estructura de los seres vivos. Este t\xE9rmino es muy utilizado en ciencias
+      como la medicina y la biolog\xEDa."
+    nombreEscena: anatomia
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 51cade4385b1ab04594d33736eb992e9, type: 3}
+    image2: {fileID: 21300000, guid: 9328ea312cc6df9458095bb277c82ddb, type: 3}
+  - descripcion: "Los \xE1tomos tienen las propiedades del elemento qu\xEDmico que
+      componen y, a su vez, los elementos est\xE1n organizados y clasificados seg\xFAn
+      sus n\xFAmeros at\xF3micos, configuraci\xF3n electr\xF3nica y propiedades qu\xEDmicas
+      en la Tabla Peri\xF3dica de los elementos."
+    nombreEscena: atomo
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 04be4384effca084cbef7ad89c69b345, type: 3}
+    image2: {fileID: 21300000, guid: 6ccd869ea203cb54f9e4e2af11861249, type: 3}
+  - descripcion: "En el \xE1mbito de la biolog\xEDa, es la unidad m\xE1s peque\xF1a
+      que puede vivir por s\xED sola. Forma todos los organismos vivos y los tejidos
+      del cuerpo. Las tres partes principales de la c\xE9lula son la membrana celular,
+      el n\xFAcleo y el citoplasma."
+    nombreEscena: celulas
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 83007ade9e5932e4580e31ee3630b156, type: 3}
+    image2: {fileID: 21300000, guid: 58337d6de8f9f4844a11674ceb11b242, type: 3}
+  - descripcion: "La erupci\xF3n del monte Vesubio es una de las erupciones volc\xE1nicas
+      m\xE1s famosas de la historia. En el a\xF1o 79 A. C. una nube ardiente provoc\xF3
+      el entierro de la ciudad romana de Pompeya. La ciudad qued\xF3 cubierta bajo
+      una capa de 25 metros (82 pies) de cenizas volc\xE1nicas."
+    nombreEscena: volcan
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 3b0972278907c8c4aa40df22d3c591d4, type: 3}
+    image2: {fileID: 21300000, guid: 50aa24bb3d93c9f488fd5b45b25bf3a8, type: 3}
+  - descripcion: "Nikola Tesla es el genio que cre\xF3 la corriente alterna, misma
+      que hasta el d\xEDa de hoy utilizamos en nuestro d\xEDa a d\xEDa. Este tipo
+      de corriente es la que viaja por las l\xEDneas el\xE9ctricas para llegar hasta
+      los enchufes de los hogares. A diferencia de la corriente continua, es m\xE1s
+      segura, necesita de un menor aislamiento."
+    nombreEscena: circuito
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 4e002800c77310240a0b20e1a4831740, type: 3}
+    image2: {fileID: 21300000, guid: f0ad6a7eeb231e747af1d8377351bd53, type: 3}
+  - descripcion: "A diferencia con los movimientos rectil\xEDneos, en el movimiento
+      circular la distancia que hay entre el objeto que se mueve y el centro de la
+      circunferencia que se mueve permanece constante, pero el \xE1ngulo en el que
+      se encuentra var\xEDa."
+    nombreEscena: circular
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 0291d353166b47841a3f07c940db234d, type: 3}
+    image2: {fileID: 21300000, guid: 5b3a0143c37f0e648869d797fd779af6, type: 3}
+  - descripcion: "Los eventos clim\xE1ticos ocurren porque el sol calienta la superficie
+      de la Tierra de manera desigual. Esta diferencia da como resultado variaciones
+      en la temperatura, que hacen que se formen corrientes de aire (vientos) que
+      mueven el aire caliente de \xE1reas donde las temperaturas son altas a regiones
+      donde las temperaturas son m\xE1s fr\xEDas."
+    nombreEscena: clima
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: a45c9a5a415df404d805bf23961b6b78, type: 3}
+    image2: {fileID: 21300000, guid: 71dfbaecb7ee8634896b6ff4959b642d, type: 3}
+  - descripcion: "Es el pa\xEDs con mayor biodiversidad del mundo. La raz\xF3n es
+      que parte de la selva amaz\xF3nica, la cordillera de los Andes y la Sierra
+      Nevada de Santa Marta est\xE1n en Colombia. Adem\xE1s, el litoral del pa\xEDs
+      abarca el oc\xE9ano Pac\xEDfico y el mar Caribe, haciendo que el territorio
+      colombiano se convierta en un terreno f\xE9rtil para diversos tipos de plantas
+      y animales: hay unas 60.000 especies diferentes."
+    nombreEscena: colombia
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: a5eff9168d3ebfa448dacbe849015553, type: 3}
+    image2: {fileID: 21300000, guid: 0183573bb308f15498bde7b55a9d3d8d, type: 3}
+  - descripcion: "La Uni\xF3n Astron\xF3mica Internacional (IAU) reconoce oficialmente
+      88 constelaciones que cubren ambos hemisferios de la esfera celeste. Cada constelaci\xF3n
+      es una regi\xF3n del cielo bordeada por arcos de ascensi\xF3n recta y declinaci\xF3n.
+      Cualquier punto de la esfera celeste se encuentra dentro de una de las constelaciones."
+    nombreEscena: estrellas
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 0ecd1a10377e20b4a8802e17370b605a, type: 3}
+    image2: {fileID: 21300000, guid: b8209ee02c1ba75478e81d7e41ad8941, type: 3}
+  - descripcion: "En la Tierra, la gravedad no es pareja ya que el planeta no es
+      una esfera perfecta y su masa se distribuye de forma desigual. Eso genera peque\xF1as
+      irregularidades en la gravedad, como la que sucede en la bah\xEDa de Hudson,
+      en Canad\xE1, donde la gravedad es menor que en otros sitios."
+    nombreEscena: gravedad
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: e41391cec6b2986458c8513ab06752da, type: 3}
+    image2: {fileID: 21300000, guid: e6ea5c18d63405c4283df7013627011f, type: 3}
+  - descripcion: "La Tierra suele conocerse con  \u2018el planeta azul\u2019. Cortes\xEDa
+      del agua que cubre el 70% de su superficie. Sin embargo, el elemento que propici\xF3
+      la vida en este planeta, apenas es potable en un 0,025%. el 96,5% del agua
+      terrestre corresponde al agua salada de mares y oc\xE9anos. Solo un 3,5% del
+      agua de la Tierra es dulce."
+    nombreEscena: hidrografia
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: a3b931164995f504bba348a8205a5851, type: 3}
+    image2: {fileID: 21300000, guid: 1f057d370d3267c449aa242e5a1cd0c3, type: 3}
+  - descripcion: "A diferencia de las 7 maravillas del mundo naturales, las 7 Maravillas
+      del Mundo Moderno no son obras de la naturaleza. Por el contrario, se trata
+      de construcciones realizadas por el hombre hasta el a\xF1o 2000, que se destacan
+      por su belleza art\xEDstica."
+    nombreEscena: maravillas
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: d972a77d79793fc429e6ee26f99a9499, type: 3}
+    image2: {fileID: 21300000, guid: b71a27de131c8eb4d804bf0eb613c72d, type: 3}
+  - descripcion: "Los estados de la materia comenzaron siendo dos, identificados
+      por los antiguos observando lo que le ocurr\xEDa al agua, que corr\xEDa libre
+      y c\xE1lida por los r\xEDos en verano y se endurec\xEDa con el fr\xEDo en invierno.
+      Uno de los primeros que descubri\xF3 el fuego, se percat\xF3 en alg\xFAn momento
+      de que el agua herv\xEDa y se evaporaba, lo que aument\xF3 la cuenta formal
+      a tres estados."
+    nombreEscena: materia
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: c8ec04e4e4fcc644ea000813a62811f3, type: 3}
+    image2: {fileID: 21300000, guid: 966b04fb2b9cc234d871c1ffd84978f1, type: 3}
+  - descripcion: "Seguramente has notado que cuando cortas una cebolla sientes algo
+      en los ojos que te hacen lagrimear. Esto se debe a que en la cebolla existen
+      algunos compuestos derivados de azufre. Al cortar la cebolla rompemos sus c\xE9lulas,
+      y esto ocasiona que los compuestos qu\xEDmicos que estaban internamente separados
+      se combinen formando un compuesto lacrim\xF3geno."
+    nombreEscena: moleculas
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: cc71f544cf1b9d54eab579e21e359859, type: 3}
+    image2: {fileID: 21300000, guid: e2f20b01d12132c45bdb8421e76a4e03, type: 3}
+  - descripcion: "Gracias a la ciencia de la cartograf\xEDa se empezaron a usar br\xFAjulas
+      y teodolitos para medir \xE1ngulos, yendo m\xE1s all\xE1 de los sentidos humanos.
+      Progresivamente, los mapas se han ido perfeccionando hasta el punto de reflejar
+      con bastante fidelidad el mundo, incluso de lugares que probablemente nunca
+      pisaremos."
+    nombreEscena: mapaMundi
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 1d1fb9521534d834c8076350563e3ccd, type: 3}
+    image2: {fileID: 21300000, guid: bd66621c3de1fe8489db865e14e99a53, type: 3}
+  - descripcion: "Las plantas compuestas de muchas c\xE9lulas solo existen desde
+      hace unos 800 millones de a\xF1os. Para sobrevivir en la Tierra, las plantas
+      tuvieron que protegerse de la radiaci\xF3n ultravioleta y desarrollar esporas
+      y luego semillas que les permitieran dispersarse m\xE1s ampliamente."
+    nombreEscena: planta
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 682662ac53765f44daf64cca3f5de645, type: 3}
+    image2: {fileID: 21300000, guid: 7f559d5cd4765ec46ad7d2cbaf839f08, type: 3}
+  - descripcion: "Un movimiento rectil\xEDneo uniforme, es aquel que tiene su velocidad
+      constante y su trayectoria es una l\xEDnea recta. Esto implica que: El espacio
+      recorrido es igual que el desplazamiento, en tiempos iguales se recorren distancias
+      iguales y la rapidez o celeridad es siempre constante y coincide con el m\xF3dulo
+      de la velocidad."
+    nombreEscena: Rectilineo
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 13f375a24b4d5e74eaa5613cf45a7810, type: 3}
+    image2: {fileID: 21300000, guid: 273da0261360bdd419867bf922c16795, type: 3}
+  - descripcion: "La configuraci\xF3n actual del relieve terrestre es el resultado
+      de procesos que han tenido lugar a lo largo de la historia geol\xF3gica del
+      planeta. Uno de los principales motores en la formaci\xF3n del relieve es el
+      movimiento de las placas tect\xF3nicas. Las interacciones entre estas placas
+      generan fen\xF3menos como la subducci\xF3n, donde una placa se desplaza debajo
+      de otra y forma cordilleras de monta\xF1as, volcanes y fosas oce\xE1nicas."
+    nombreEscena: relieve
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 419e1b585cfd15543bdf3e2bb349dd2b, type: 3}
+    image2: {fileID: 21300000, guid: 12f4c4e7f6cd35049a6a26354602d7ba, type: 3}
+  - descripcion: "El sistema solar se form\xF3 hace unos 4.600 millones de a\xF1os
+      por el colapso de una nube molecular gigante. La masa en su centro se acumul\xF3
+      para formar el Sol y un disco plano de polvo a su alrededor. Esto finalmente
+      form\xF3 los planetas y otros cuerpos del sistema solar."
+    nombreEscena: sistemaSolar
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: db3c944927adb114b95fc3ae926ef4cf, type: 3}
+    image2: {fileID: 21300000, guid: b1237b4951bdf1f46a1ce1c4273b5961, type: 3}
+  - descripcion: "De acuerdo al an\xE1lisis de genes y f\xF3siles que han realizado
+      los expertos, estos insectos surgieron hace entre 120 y 100 millones de a\xF1os
+      y se estima que las primeras mariposas eran semejantes a las llamadas polillas. 
+      Estos animales pertenecen a un grupo muy diverso que comprende m\xE1s de 250
+      000 especies y var\xEDan en tama\xF1o que van desde 3175 mil\xEDmetros hasta
+      30.48 cent\xEDmetros."
+    nombreEscena: VidaMariposa
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 5a681501d02d17e4d97205cf20427ae2, type: 3}
+    image2: {fileID: 21300000, guid: 3cd4f0b2a2c630941a099ee1e88f152f, type: 3}
+  - descripcion: "El pol\xEDgono regular se caracteriza porque sus lados tienen la
+      misma longitud, sus \xE1ngulos interiores son de la misma medida y sus v\xE9rtices
+      se encuentran circunscritos en una circunferencia. En cambio, el pol\xEDgono
+      irregular se distingue porque sus lados no tienen la misma longitud, sus \xE1ngulos
+      interiores no son de la misma media y sus v\xE9rtices no quedan suscritos en
+      una circunferencia."
+    nombreEscena: poligonos
+    objeto: {fileID: 5647533222124476770, guid: 3fefb165c7390c740845d13510e83ef2, type: 3}
+    image1: {fileID: 21300000, guid: 2ba33a48c656d8641bc8b32ade113334, type: 3}
+    image2: {fileID: 21300000, guid: bf939e6bb00f2f04aa4bd29ec527a95a, type: 3}
+  - descripcion: "La propiedad m\xE1s obvia de los tri\xE1ngulos son sus tres lados,
+      tres v\xE9rtices y tres \xE1ngulos, que bien pueden ser semejantes o totalmente
+      distintos entre s\xED. Los tri\xE1ngulos son los pol\xEDgonos m\xE1s simples
+      que hay y carecen de diagonal, ya que con tres puntos no alineados cualesquiera
+      es posible formar un tri\xE1ngulo."
+    nombreEscena: triangulos
+    objeto: {fileID: 8346403566470003782, guid: d26ceda7cc165b744b6fd92bdec55ed3, type: 3}
+    image1: {fileID: 21300000, guid: 5068d5f2fc996bb478178cf36a795bae, type: 3}
+    image2: {fileID: 21300000, guid: 3a3a6cb6c2e71ba4b80666cde79d9232, type: 3}
+  - descripcion: "Una fracci\xF3n representa el n\xFAmero de partes que cogemos de
+      una unidad que est\xE1 dividida en partes iguales. Se representa por dos n\xFAmeros
+      separados por una l\xEDnea de fracci\xF3n. Los t\xE9rminos de una fracci\xF3n
+      son el numerador y el denominador. El numerador es el n\xFAmero de partes que
+      tenemos y el denominador es el n\xFAmero de partes en que hemos dividido la
+      unidad."
+    nombreEscena: fracciones
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: b82b01193b3f3b94bafeb760cc38bb63, type: 3}
+    image2: {fileID: 21300000, guid: 8ffc30bdcfc9c0141a784b1351c69731, type: 3}
+  - descripcion: "Los n\xFAmeros pares son siempre m\xFAltiplos de dos. Es decir,
+      se obtienen de multiplicar dos por un n\xFAmero natural. Y Siempre ocurre que
+      al restar la unidad a un n\xFAmero par se obtiene un n\xFAmero impar. Entonces,
+      los n\xFAmeros impares siempre anteceden a un n\xFAmero par."
+    nombreEscena: pareimpar
+    objeto: {fileID: 0}
+    image1: {fileID: 21300000, guid: 42e25577459044d47bec3565675113d8, type: 3}
+    image2: {fileID: 21300000, guid: f580433cd049416488b5fa05c6e9444c, type: 3}
+  - descripcion: "Las figuras geom\xE9tricas tridimensionales o volum\xE9tricas poseen
+      tres dimensiones: ancho, largo y profundidad. Por lo tanto, tienen volumen.
+      Se clasifican en poliedros y cuerpos redondos: Los poliedros. Est\xE1n formados
+      por varias caras planas, que son pol\xEDgonos y que se encuentran todas unidas.
+      Adem\xE1s, tienen v\xE9rtices y aristas. Los cuerpos redondos. Est\xE1n formados
+      por al menos una cara que es curva. "
+    nombreEscena: figuras
+    objeto: {fileID: 3763712702174763708, guid: d3a1ee965e62f1d4e8dee94442c7eaa9, type: 3}
+    image1: {fileID: 21300000, guid: 5b5cb8f911cd12e40b8241b1c9091967, type: 3}
+    image2: {fileID: 21300000, guid: c322a6cb3ca7be648b9974b9979dd682, type: 3}
+  - descripcion: "Desde tiempos ancestrales, los animales nos han contribuido con
+      hacer la vida humana m\xE1s c\xF3moda y duradera. Estos beneficios pueden resumirse
+      en: Aportan carnes, huevos, leche y otros alimentos a la dieta humana, desplazando
+      actividades m\xE1s riesgosas como la cacer\xEDa y permiti\xE9ndonos producir
+      alimentos en abundancia y en un ambiente muy controlado. Sirven para llevar
+      a cabo labores mediante la fuerza, como el arado y otras tareas propias de
+      la siembra y la agricultura. Aportan compa\xF1\xEDa y afecto convirti\xE9ndose
+      en un miembro de la familia, o al menos esto aplica para los animales dom\xE9sticos. "
+    nombreEscena: animales
+    objeto: {fileID: 7259198955762583642, guid: 412d83cca9526a84eb93b78dc9396caa, type: 3}
+    image1: {fileID: 21300000, guid: 2fcd5aa8e8ae37042a2a43b8df6322bb, type: 3}
+    image2: {fileID: 21300000, guid: 996f96b431bb6ef4b950af6f18201edd, type: 3}
+  - descripcion: "Se denomina transporte traslado de alg\xFAn lugar a otro como personas
+      o bienes. El transporte es una actividad fundamental dentro del desarrollo
+      de la humanidad. Desempe\xF1ando un papel importante en el traslado de personas,
+      bienes y mercanc\xEDas de un lugar a otro. A veces el transporte se realiza
+      dentro de una misma ciudad, en otras ocasiones se da entre el campo y la ciudad,
+      como tambi\xE9n entre distintos pa\xEDses. "
+    nombreEscena: transporte
+    objeto: {fileID: 1485836097003432275, guid: caf91090bea5526459477cf442909edc, type: 3}
+    image1: {fileID: 21300000, guid: 4ad3eef0ea9eba0429b5989af706c496, type: 3}
+    image2: {fileID: 21300000, guid: 733de7c2cbf2c814b805a746a2f8a306, type: 3}

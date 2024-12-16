@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: constelaciones
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 0
+    titulo: Orion
+    objeto: {fileID: 719336144920387304, guid: 29702ff6409310248bb7f18887ca596a, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: Leo
+    objeto: {fileID: 3387511517184920565, guid: 3157bda2c9b1c7b4bb632b5879a6e89c, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: Osa Mayor
+    objeto: {fileID: 6466004492386348475, guid: e6c4b96ce2c4c184893da80a6ab61119, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: Osa Menor
+    objeto: {fileID: 6471871022663390362, guid: a30b682db2b768248b60f79dbc9e1b34, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: Hercules
+    objeto: {fileID: 8726794413371041854, guid: 4f42f3c0f23c92e4fb021ae107de3e65, type: 3}
+    image: {fileID: 0}
+  - tipoBtn: 0
+    titulo: Hydra
+    objeto: {fileID: 5550405072708626796, guid: f31c16e636e92b84cbe3185812a3b617, type: 3}
+    image: {fileID: 0}

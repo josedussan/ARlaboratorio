@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e5edef7aaca3349bf4d6dc0782a52a, type: 3}
+  m_Name: planetaData
+  m_EditorClassIdentifier: 
+  planetas:
+  - titulo: Sol
+    descripcion: "Es la gran estrella central del Sistema Solar. Alrededor de esta
+      estrella giran los dem\xE1s planetas. Esta estrella desprende luz y calor todo
+      el tiempo. Sin el Sol, no habr\xEDa vida en nuestro planeta, La Tierra."
+    explicacion: {fileID: 8300000, guid: b27631dc25f1b7941830d787a696698a, type: 3}
+  - titulo: Mercurio
+    descripcion: "Su nombre hace referencia al Dios mensajero de la mitolog\xEDa
+      romana. Es el planeta m\xE1s peque\xF1o del Sistema Solar y el m\xE1s cercano
+      al Sol, es por esto que es el planeta que tarda menos en dar una vuelta entera
+      alrededor del Sol. No tiene sat\xE9lites. 88 d\xEDas en dar la vuelta al sol."
+    explicacion: {fileID: 8300000, guid: 9b21d87ca0de39c46915612674889d79, type: 3}
+  - titulo: Venus
+    descripcion: "Su nombre hace referencia a la Diosa del amor en la mitolog\xEDa
+      romana. Es el planeta que m\xE1s tiempo tarda en dar una vuelta sobre s\xED
+      mismo, por lo que, una vuelta equivale a 243 d\xEDas aqu\xED en la Tierra.
+      Como curiosidad, este planeta gira alrededor del Sol en direcci\xF3n contraria
+      al resto de planetas. 255 d\xEDas en dar la vuelta al sol."
+    explicacion: {fileID: 8300000, guid: a06a692e741401845a3857347dd2aa08, type: 3}
+  - titulo: Tierra
+    descripcion: "Su nombre hace referencia a una Diosa de la mitolog\xEDa romana,
+      Terra. La Tierra es el \xFAnico planeta de nuestro sistema solar habitado.
+      365 d\xEDas en dar la vuelta al sol."
+    explicacion: {fileID: 8300000, guid: 04bbe46a2e12ecd4cb7ea9299fbc480f, type: 3}
+  - titulo: Luna
+    descripcion: "La luna es el sat\xE9lite natural de la tierra. Brilla, pero no
+      tiene luz propia ya que la recibe del sol. La luna gira sobre su propio eje
+      y tarda 27 d\xEDas en realizar este movimiento. Tambi\xE9n gira alrededor del
+      sol y lo hacen en 29 d\xEDas y 12 horas."
+    explicacion: {fileID: 8300000, guid: 047d64c821127804daa613e9eecff738, type: 3}
+  - titulo: Marte
+    descripcion: "Su nombre hace referencia al Dios de la guerra en la mitolog\xEDa
+      romana, Marte. Es el segundo planeta m\xE1s peque\xF1o. Su superficie tiene
+      un color caracter\xEDstico, el rojo, debido al \xF3xido de hierro y por eso,
+      tambi\xE9n es conocido como el planeta rojo. 686 d\xEDas en dar la vuelta al
+      sol."
+    explicacion: {fileID: 8300000, guid: c11a2df70742c3e448aa29e512979c40, type: 3}
+  - titulo: Jupiter
+    descripcion: "Su nombre hace referencia al Dios romana denominado con el mismo
+      nombre (en la mitolog\xEDa griega, es el famoso Zeus). Es el planeta m\xE1s
+      grande del Sistema Solar y tambi\xE9n el m\xE1s viejo; Tiene 79 sat\xE9lites
+      confirmados a su alrededor. 4.000 d\xEDas en dar la vuelta al sol"
+    explicacion: {fileID: 8300000, guid: d9574fcd83e6cde48b1e9e8c9b8a1afb, type: 3}
+  - titulo: Saturno
+    descripcion: "Este planeta tiene este nombre debido a un Dios de la mitolog\xEDa
+      romana con el mismo nombre. Tambi\xE9n se conoce a este planeta como el planeta
+      de los anillos, ya que tiene los anillos m\xE1s vistosos. Estos anillos est\xE1n
+      formados por trozos de hielo y rocas que giran a una velocidad muy alta. 10.000
+      d\xEDas en dar la vuelta al sol"
+    explicacion: {fileID: 8300000, guid: da1a431bdeff5e04083fc44bf4662df4, type: 3}
+  - titulo: Urano
+    descripcion: "Este planeta se llama as\xED por un Dios de la mitolog\xEDa griega.
+      Su atm\xF3sfera tiene metano y por eso, Urano es de color azulado. Adem\xE1s,
+      su atm\xF3sfera es tambi\xE9n la m\xE1s fr\xEDa, a unos -224 grados cent\xEDgrados.
+      30.240 d\xEDas en dar la vuelta al sol."
+    explicacion: {fileID: 8300000, guid: b9baa57f0c085e14bb35e4099ffc5888, type: 3}
+  - titulo: Neptuno
+    descripcion: "Este planeta se llama as\xED debido al Dios romano del mar. Es
+      el planeta m\xE1s alejado del Sol y, por eso, es el que m\xE1s tarda en dar
+      una vuelta entera a su alrededor (unos 165 a\xF1os en la Tierra). 60.225 d\xEDas
+      en dar la vuelta al sol."
+    explicacion: {fileID: 8300000, guid: 5fb6118be219d684db7f0f112aff7ee4, type: 3}

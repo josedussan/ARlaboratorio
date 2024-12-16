@@ -1,0 +1,804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b010e1ab208c6194ba1471a24dd21248, type: 3}
+  m_Name: sustanciaQuimica
+  m_EditorClassIdentifier: 
+  objetos:
+  - masa: 1.0078 u
+    simbolo: H
+    nombre: "Hidr\xF3geno"
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 1 e*'
+    estado: 2
+  - masa: 4.0026 u
+    simbolo: He
+    nombre: Helio
+    tipoSustancia: Gases Nobles
+    configuracion: 'Orbita 1: 2 e*'
+    estado: 2
+  - masa: 6.9410 u
+    simbolo: Li
+    nombre: Litio
+    tipoSustancia: Metales Alcalinos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 1 e*'
+    estado: 0
+  - masa: 9.0122 u
+    simbolo: Be
+    nombre: Berilio
+    tipoSustancia: "Metales Alcalinot\xE9rreos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 2 e*'
+    estado: 0
+  - masa: 10.811 u
+    simbolo: B
+    nombre: Boro
+    tipoSustancia: Metaloides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 3 e*'
+    estado: 0
+  - masa: 12.011 u
+    simbolo: C
+    nombre: Carbono
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 4 e*'
+    estado: 0
+  - masa: 14.007 u
+    simbolo: N
+    nombre: "Nitr\xF3geno"
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 5 e*'
+    estado: 2
+  - masa: 15.999 u
+    simbolo: O
+    nombre: "Ox\xEDgeno"
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 6 e*'
+    estado: 2
+  - masa: 18.998 u
+    simbolo: F
+    nombre: "Fl\xFAor"
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 7 e*'
+    estado: 2
+  - masa: 20.180 u
+    simbolo: Ne
+    nombre: "Ne\xF3n"
+    tipoSustancia: Gases Nobles
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e*'
+    estado: 2
+  - masa: 22.990 u
+    simbolo: Na
+    nombre: Sodio
+    tipoSustancia: Metales Alcalinos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 1 e* '
+    estado: 0
+  - masa: 24.305 u
+    simbolo: Mg
+    nombre: Magnesio
+    tipoSustancia: "Metales Alcalinot\xE9rreos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 2 e* '
+    estado: 0
+  - masa: 26.982 u
+    simbolo: Al
+    nombre: Aluminio
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 3 e* '
+    estado: 0
+  - masa: 28.086 u
+    simbolo: Si
+    nombre: Silicio
+    tipoSustancia: Metaloides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 4 e* '
+    estado: 0
+  - masa: 30.974 u
+    simbolo: P
+    nombre: "F\xF3sforo"
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 5 e* '
+    estado: 0
+  - masa: 32.065 u
+    simbolo: S
+    nombre: Azufre
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 6 e* '
+    estado: 0
+  - masa: 35.453 u
+    simbolo: Cl
+    nombre: Cloro
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 7 e* '
+    estado: 2
+  - masa: 39.948 u
+    simbolo: Ar
+    nombre: "Arg\xF3n"
+    tipoSustancia: Gases Nobles
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 8 e* '
+    estado: 2
+  - masa: 39.098 u
+    simbolo: K
+    nombre: Potasio
+    tipoSustancia: Metales Alcalinos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 8 e* Orbita 4: 1e* '
+    estado: 0
+  - masa: 40.078 u
+    simbolo: Ca
+    nombre: Calcio
+    tipoSustancia: "Metales Alcalinot\xE9rreos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 8 e* Orbita 4: 2e* '
+    estado: 0
+  - masa: 44.956 u
+    simbolo: Sc
+    nombre: Escandio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 9 e* Orbita 4: 2e* '
+    estado: 0
+  - masa: 47.867 u
+    simbolo: Ti
+    nombre: Titanio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 10 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 50.942 u
+    simbolo: V
+    nombre: Vanadio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 11 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 51.996 u
+    simbolo: Cr
+    nombre: Cromo
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 13 e* Orbita 4: 1 e* '
+    estado: 0
+  - masa: 54.938 u
+    simbolo: Mn
+    nombre: Manganeso
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 13 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 55.845 u
+    simbolo: Fe
+    nombre: Hierro
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 14 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 58.933 u
+    simbolo: Co
+    nombre: Cobalto
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 15 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 58.693 u
+    simbolo: Ni
+    nombre: "N\xEDquel"
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 16 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 63.546 u
+    simbolo: Cu
+    nombre: Cobre
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 1 e* '
+    estado: 0
+  - masa: 65.380 u
+    simbolo: Zn
+    nombre: Zinc
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 2 e* '
+    estado: 0
+  - masa: 69.723 u
+    simbolo: Ga
+    nombre: Galio
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 3 e* '
+    estado: 0
+  - masa: 72.640 u
+    simbolo: Ge
+    nombre: Germanio
+    tipoSustancia: Metaloide
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 4 e* '
+    estado: 0
+  - masa: 74.922 u
+    simbolo: As
+    nombre: "Ars\xE9nico"
+    tipoSustancia: Metaloide
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 5 e* '
+    estado: 0
+  - masa: 78.960 u
+    simbolo: Se
+    nombre: Selenio
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 6 e* '
+    estado: 0
+  - masa: 79.904 u
+    simbolo: Br
+    nombre: Bromo
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 7 e* '
+    estado: 1
+  - masa: 83.798 u
+    simbolo: Kr
+    nombre: "Kript\xF3n"
+    tipoSustancia: Gases Nobles
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 8 e* '
+    estado: 2
+  - masa: 85.468 u
+    simbolo: Rb
+    nombre: Rubidio
+    tipoSustancia: Metales Alcalinos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 8 e*
+      Orbita 5: 1 e*'
+    estado: 0
+  - masa: 87.620 u
+    simbolo: Sr
+    nombre: Estroncio
+    tipoSustancia: "Metales Alcalinot\xE9rreos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 8 e*
+      Orbita 5: 2 e*'
+    estado: 0
+  - masa: 88.906 u
+    simbolo: Y
+    nombre: Itrio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 9 e*
+      Orbita 5: 2 e*'
+    estado: 0
+  - masa: 91.224 u
+    simbolo: Zr
+    nombre: Circonio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 10 e*
+      Orbita 5: 2 e*'
+    estado: 0
+  - masa: 92.906 u
+    simbolo: Nb
+    nombre: Niobio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 12 e*
+      Orbita 5: 1 e*'
+    estado: 0
+  - masa: 95.950 u
+    simbolo: Mo
+    nombre: Molibdeno
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 13 e*
+      Orbita 5: 1 e*'
+    estado: 0
+  - masa: 98 u
+    simbolo: Tc
+    nombre: Tecnecio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 14 e*
+      Orbita 5: 2 e*'
+    estado: 0
+  - masa: 101.07 u
+    simbolo: Ru
+    nombre: Rutenio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 15 e*
+      Orbita 5: 1 e*'
+    estado: 0
+  - masa: 102.91 u
+    simbolo: Rh
+    nombre: Rodio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 16 e*
+      Orbita 5: 1 e*'
+    estado: 0
+  - masa: 106.42 u
+    simbolo: Pd
+    nombre: Paladio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*'
+    estado: 0
+  - masa: 107.87 u
+    simbolo: Ag
+    nombre: Plata
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 1 e*'
+    estado: 0
+  - masa: 112.41 u
+    simbolo: Cd
+    nombre: Cadmio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 2 e*'
+    estado: 0
+  - masa: 114.82 u
+    simbolo: In
+    nombre: Indio
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 3 e*'
+    estado: 0
+  - masa: 118.71 u
+    simbolo: Sn
+    nombre: "Esta\xF1o"
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 4 e*'
+    estado: 0
+  - masa: 121.76 u
+    simbolo: Sb
+    nombre: Antimonio
+    tipoSustancia: Metaloides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 5 e*'
+    estado: 0
+  - masa: 127.60 u
+    simbolo: Te
+    nombre: Telurio
+    tipoSustancia: Metaloides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 6 e*'
+    estado: 0
+  - masa: 126.90 u
+    simbolo: I
+    nombre: Yodo
+    tipoSustancia: No Metales Reactivos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 7 e*'
+    estado: 0
+  - masa: 131.29 u
+    simbolo: Xe
+    nombre: "Xen\xF3n"
+    tipoSustancia: Gases Nobles
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 8 e*'
+    estado: 2
+  - masa: 132.91 u
+    simbolo: Cs
+    nombre: Cesio
+    tipoSustancia: Metales Alcalinos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 9 e*'
+    estado: 0
+  - masa: 137.33 u
+    simbolo: Ba
+    nombre: Bario
+    tipoSustancia: "Metales Alcalinot\xE9rreos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 138.91 u
+    simbolo: La
+    nombre: Lantano
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 18 e*
+      Orbita 5: 9 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 140.12 u
+    simbolo: Ce
+    nombre: Cerio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 19 e*
+      Orbita 5: 9 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 140.91 u
+    simbolo: Pr
+    nombre: Praseodimio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 21 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 144.24 u
+    simbolo: Nd
+    nombre: Neodimio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 22 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 145 u
+    simbolo: Pm
+    nombre: Prometio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 23 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 150.36 u
+    simbolo: Sm
+    nombre: Samario
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 24 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 151.96 u
+    simbolo: Eu
+    nombre: Europio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 25 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 157.25 u
+    simbolo: Gd
+    nombre: Gadolinio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 25 e*
+      Orbita 5: 9 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 158.93 u
+    simbolo: Tb
+    nombre: Terbio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 27 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 162.5 u
+    simbolo: Dy
+    nombre: Disprosio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 28 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 164.93 u
+    simbolo: Ho
+    nombre: Holmio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 29 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 167.26 u
+    simbolo: Er
+    nombre: Erbio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 30 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 168.93 u
+    simbolo: Tm
+    nombre: Tulio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 31 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 173.04 u
+    simbolo: Yb
+    nombre: Iterbio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 8 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 174.97 u
+    simbolo: Lu
+    nombre: Lutecio
+    tipoSustancia: "Lant\xE1nidos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 9 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 178.49 u
+    simbolo: Hf
+    nombre: Hafnio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 10 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 180.95 u
+    simbolo: Ta
+    nombre: "T\xE1ntalo"
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 11 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 183.84 u
+    simbolo: W
+    nombre: Wolframio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 12 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 186.21 u
+    simbolo: Re
+    nombre: Renio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 13 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 190.23 u
+    simbolo: Os
+    nombre: Osmio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 14 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 192.22 u
+    simbolo: Ir
+    nombre: Iridio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 15 e* Orbita 6: 2 e*'
+    estado: 0
+  - masa: 195.08 u
+    simbolo: Pt
+    nombre: Platino
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 17 e* Orbita 6: 1 e*'
+    estado: 0
+  - masa: 196.97 u
+    simbolo: Au
+    nombre: Oro
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 1 e*'
+    estado: 0
+  - masa: 200.59 u
+    simbolo: Hg
+    nombre: Mercurio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 2 e*'
+    estado: 1
+  - masa: 204.38 u
+    simbolo: Tl
+    nombre: Talio
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 3 e*'
+    estado: 0
+  - masa: 207.20 u
+    simbolo: Pb
+    nombre: Plomo
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 4 e*'
+    estado: 0
+  - masa: 208.98 u
+    simbolo: Bi
+    nombre: Bismuto
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 5 e*'
+    estado: 0
+  - masa: 209 u
+    simbolo: Po
+    nombre: Polonio
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 6 e*'
+    estado: 0
+  - masa: 210 u
+    simbolo: At
+    nombre: Astato
+    tipoSustancia: Metales Postransicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 7 e*'
+    estado: 0
+  - masa: 222
+    simbolo: Rn
+    nombre: "Rad\xF3n"
+    tipoSustancia: Gases Nobles
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 8 e*'
+    estado: 2
+  - masa: 223
+    simbolo: Fr
+    nombre: Francio
+    tipoSustancia: Metales Alcalinos
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 8 e* Orbita 7: 1 e*'
+    estado: 1
+  - masa: 226 u
+    simbolo: Ra
+    nombre: Radio
+    tipoSustancia: "Metales Alcalinot\xE9rreos"
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 8 e* Orbita 7: 1 e*'
+    estado: 0
+  - masa: 227
+    simbolo: Ac
+    nombre: Actinio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 9 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 232.04 u
+    simbolo: Th
+    nombre: Torio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 18 e* Orbita 6: 10 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 231.04 u
+    simbolo: Pa
+    nombre: Protactinio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 20 e* Orbita 6: 9 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 238.03 u
+    simbolo: U
+    nombre: Uranio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 21 e* Orbita 6: 9 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 237.05 u
+    simbolo: Np
+    nombre: Neptunio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 22 e* Orbita 6: 9 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 244 u
+    simbolo: Pu
+    nombre: Plutonio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 24 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 243
+    simbolo: Am
+    nombre: Americio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 25 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 247 u
+    simbolo: Cm
+    nombre: Curio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 24 e* Orbita 6: 9 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 247 u
+    simbolo: Bk
+    nombre: Berkelio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 27 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 251 u
+    simbolo: Cf
+    nombre: Californio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 28 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 252 u
+    simbolo: Es
+    nombre: Einstenio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 29 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 257 u
+    simbolo: Fm
+    nombre: Fermio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 30 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 258 u
+    simbolo: Md
+    nombre: Mendelevio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 31 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 259 u
+    simbolo: No
+    nombre: Nobelio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 8 e* Orbita 7: 2 e*'
+    estado: 0
+  - masa: 262 u
+    simbolo: Lr
+    nombre: Lawrencio
+    tipoSustancia: Actinoides
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 8 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 267 u
+    simbolo: Rf
+    nombre: Rutherfordio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 9 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 262 u
+    simbolo: Db
+    nombre: Dubnio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 10 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 269 u
+    simbolo: Sg
+    nombre: Seaborgio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 11 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 264 u
+    simbolo: Bh
+    nombre: Bohrio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 12 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 269 u
+    simbolo: Hs
+    nombre: Hasio
+    tipoSustancia: Metales Transicionales
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 13 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 278 u
+    simbolo: Mt
+    nombre: Meitnerio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 14 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 281 u
+    simbolo: Ds
+    nombre: Darmstatio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 15 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 282 u
+    simbolo: Rg
+    nombre: Roentgenio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 16 e* Orbita 7: 3 e*'
+    estado: 3
+  - masa: 285 u
+    simbolo: Cn
+    nombre: Copernicio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 17 e* Orbita 7: 3 e*'
+    estado: 3
+  - masa: 286 u
+    simbolo: Nh
+    nombre: Nihonio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 18 e* Orbita 7: 3 e*'
+    estado: 0
+  - masa: 289 u
+    simbolo: Fl
+    nombre: Flerovio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 18 e* Orbita 7: 4 e*'
+    estado: 0
+  - masa: 289 u
+    simbolo: Mc
+    nombre: Moscovio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 18 e* Orbita 7: 5 e*'
+    estado: 3
+  - masa: 293 u
+    simbolo: Lv
+    nombre: Livermonio
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 18 e* Orbita 7: 6 e*'
+    estado: 3
+  - masa: 294 u
+    simbolo: Ts
+    nombre: Teneso
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 18 e* Orbita 7: 7 e*'
+    estado: 0
+  - masa: 294 u
+    simbolo: Og
+    nombre: "Oganes\xF3n"
+    tipoSustancia: Propiedades Desconocidas
+    configuracion: 'Orbita 1: 2 e* Orbita 2: 8 e* Orbita 3: 18 e* Orbita 4: 32 e*
+      Orbita 5: 32 e* Orbita 6: 18 e* Orbita 7: 8 e*'
+    estado: 3
