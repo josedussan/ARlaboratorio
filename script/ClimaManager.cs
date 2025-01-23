@@ -10,38 +10,35 @@ public class ClimaManager : MonoBehaviour
     [SerializeField]
     private AudioSource asource;
     [SerializeField]
-    private TMP_Text frente, trasero;
+    private TMP_Text frontal, back;
     [SerializeField]
-    private objetoBase _objetoBase;
+    private objetoBase _baseObject;
     [SerializeField]
-    private ClimaScriptableObject climas;
+    private ClimaScriptableObject climates;
     [SerializeField]
-    private GameObject  luzglobal;
+    private GameObject  globalLight;
 
-    private void cambiarTexto(string nombre)
+    private void ChangeText(string nombre)
     {
-        frente.text = nombre;
-        trasero.text = nombre;
+        frontal.text = nombre;
+        back.text = nombre;
     }
 
-    public void cambiarTiempo(int num)
+    public void ChangeClimate(int num)
     {
         asource.Stop();
         asource.loop = true;
-        asource.clip = climas.climas[num].sonido;
-        cambiarTexto(climas.climas[num].titulo);
-        _objetoBase.SetObject(climas.climas[num].objeto);
+        asource.clip = climates.climas[num].sonido;
+        ChangeText(climates.climas[num].titulo);
+        _baseObject.SetObject(climates.climas[num].objeto);
         asource.Play();
         if (num == 2 || num == 3 ||num==2)
         {
-            luzglobal.SetActive(false);
+            globalLight.SetActive(false);
         }
         else {
-            luzglobal.SetActive(true);
+            globalLight.SetActive(true);
         }
-
-    
-
     }
 
 }
