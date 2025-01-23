@@ -8,20 +8,20 @@ public class transicionTemporal : MonoBehaviour
     [SerializeField]
     private float transitionTime;
     private Animator transitionAnimator;
-    private string AnteriorPrefName="anterior",actual,anterior;
+    private string AnteriorPrefName="anterior",current,previous;
     // Start is called before the first frame update
     void Start()
     {
         transitionAnimator = GetComponentInChildren<Animator>();
-        Debug.Log("anterior: " + anterior);
-        Debug.Log("actual: " + actual);
+        Debug.Log("anterior: " + previous);
+        Debug.Log("actual: " + current);
 
     }
 
     private void Awake()
     {
-        actual = SceneManager.GetActiveScene().name;
-        loadData();
+        current = SceneManager.GetActiveScene().name;
+        LoadData();
     }
     // Update is called once per frame
     void Update()
@@ -29,38 +29,38 @@ public class transicionTemporal : MonoBehaviour
         
     }
 
-    private void saveData() {
-        PlayerPrefs.SetString(AnteriorPrefName,anterior);
+    private void SaveData() {
+        PlayerPrefs.SetString(AnteriorPrefName,previous);
     }
 
-    private void loadData() {
-        anterior = PlayerPrefs.GetString(AnteriorPrefName,"none");
+    private void LoadData() {
+        previous = PlayerPrefs.GetString(AnteriorPrefName,"none");
     }
 
-    public void cargarEscena(string escena) {
-        StartCoroutine(sceneLoad(escena));
+    public void LoadScene(string scene) {
+        StartCoroutine(SceneLoad(scene));
     }
-    public void cargarEscenaPredefinida()
+    public void LoadPredefinedScene()
     {
-        StartCoroutine(sceneLoad(anterior));
+        StartCoroutine(SceneLoad(previous));
     }
 
-    public IEnumerator sceneLoad(string escena) {
-        anterior = SceneManager.GetActiveScene().name;
-        Debug.Log(anterior);
+    public IEnumerator SceneLoad(string escena) {
+        previous = SceneManager.GetActiveScene().name;
+        Debug.Log(previous);
         transitionAnimator.SetTrigger("StartTransition");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(escena);
-        saveData();
+        SaveData();
     }
 
-    public void cerrar() {
+    public void Close() {
         PlayerPrefs.SetString(AnteriorPrefName, "none");
         Application.Quit();
     }
 
     private void OnDestroy()
     {
-        saveData();
+        SaveData();
     }
 }

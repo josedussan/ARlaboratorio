@@ -13,9 +13,9 @@ public class acciones : MonoBehaviour
     [SerializeField]
     private AudioSource asource;
     [SerializeField]
-    private List<Sprite> imgsBtnSonido, imgsBtnAnimacion;
+    private List<Sprite> imgsBtnSound, imgsBtnAnim;
     [SerializeField]
-    private GameObject btnAudio,btnAnimacion;    
+    private GameObject btnSound,btnAnim;    
     private bool flatLabels = false;
     private bool flatAudio = false,flatAnim=false;
     //private bool banderaAudio = false;
@@ -34,13 +34,13 @@ public class acciones : MonoBehaviour
         
     }
 
-    public void BuscarMarquillas() {
+    public void FoundLabels() {
         labels = GameObject.FindGameObjectsWithTag("marquilla");
     }
 
-    public void ActivarMarquilla(float tamano) {
+    public void EnableLabels(float tamano) {
         if (objeto != null) {
-            desactivarAnimacion();
+            DesableAnimation();
         }
         flatLabels = !flatLabels;
         if (flatLabels) { 
@@ -57,35 +57,35 @@ public class acciones : MonoBehaviour
 
     }
 
-    public void ActivarAudio() {
-        Image btnImage = btnAudio.GetComponent<Image>();
+    public void EnableAudio() {
+        Image btnImage = btnSound.GetComponent<Image>();
         flatAudio = !flatAudio;
         if (flatAudio)
         {
             asource.Stop();
             asource.Play();
-            btnImage.sprite = imgsBtnSonido[1];
-            StartCoroutine(esperarAudio());
+            btnImage.sprite = imgsBtnSound[1];
+            StartCoroutine(WaitAudio());
         }
         else {
             asource.Stop();
             StopAllCoroutines();
-            btnImage.sprite = imgsBtnSonido[0];
+            btnImage.sprite = imgsBtnSound[0];
         }
         
     }
-    IEnumerator esperarAudio() {
+    IEnumerator WaitAudio() {
         yield return new WaitForSeconds(asource.clip.length);
-        btnAudio.transform.GetComponent<Image>().sprite = imgsBtnSonido[0];
+        btnSound.transform.GetComponent<Image>().sprite = imgsBtnSound[0];
     }
 
-    public void ActivarAnimacion() {
+    public void EnableAnimation() {
 
         objeto.GetComponent<Animation>().Play();
-        Image btnImage = btnAnimacion.GetComponent<Image>();
+        Image btnImage = btnAnim.GetComponent<Image>();
         flatAnim = !flatAnim;
         if (flatAnim) {
-            btnImage.sprite = imgsBtnAnimacion[1];
+            btnImage.sprite = imgsBtnAnim[1];
             if (flatLabels)
             {
                 flatLabels = false;
@@ -96,22 +96,22 @@ public class acciones : MonoBehaviour
             }
         }
         else {
-            desactivarAnimacion();
+            DesableAnimation();
         }
     }
 
-    public void desactivarAnimacion() {
+    public void DesableAnimation() {
         objeto.GetComponent<Animation>().Stop();
-        btnAnimacion.transform.GetComponent<Image>().sprite = imgsBtnAnimacion[0];
+        btnAnim.transform.GetComponent<Image>().sprite = imgsBtnAnim[0];
     }
 
-    public void pararAudio()
+    public void StopAudio()
     {
         asource.Stop();
 
     }
 
-    public void panelAyuda(bool act) {
+    public void panelHelp(bool act) {
         if (act)
         {
             GameObject.Find("PanelAyuda").transform.DOScale(new Vector3(1, 1,1), 0.01f);
