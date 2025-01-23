@@ -7,7 +7,7 @@ using DG.Tweening;
 
 public class acciones : MonoBehaviour
 {
-    private GameObject[] marquillas;
+    private GameObject[] labels;
     [SerializeField]
     private GameObject objeto;
     [SerializeField]
@@ -15,16 +15,16 @@ public class acciones : MonoBehaviour
     [SerializeField]
     private List<Sprite> imgsBtnSonido, imgsBtnAnimacion;
     [SerializeField]
-    private GameObject btnAudio;    
-    private bool banderamarquillas = false;
-    private bool banderaAudio = true;
+    private GameObject btnAudio,btnAnimacion;    
+    private bool flatLabels = false;
+    private bool flatAudio = false,flatAnim=false;
     //private bool banderaAudio = false;
 
     public UnityEvent evento;
     // Start is called before the first frame update
     void Start()
     {
-        marquillas = GameObject.FindGameObjectsWithTag("marquilla");
+        labels = GameObject.FindGameObjectsWithTag("marquilla");
         evento.Invoke();
     }
 
@@ -35,48 +35,42 @@ public class acciones : MonoBehaviour
     }
 
     public void BuscarMarquillas() {
-        marquillas = GameObject.FindGameObjectsWithTag("marquilla");
+        labels = GameObject.FindGameObjectsWithTag("marquilla");
     }
 
     public void ActivarMarquilla(float tamano) {
         if (objeto != null) {
             desactivarAnimacion();
         }
-        if (!banderamarquillas) { 
-
-            banderamarquillas = true;
-            for (int i = 0; i < marquillas.Length; i++)
+        flatLabels = !flatLabels;
+        if (flatLabels) { 
+            for (int i = 0; i < labels.Length; i++)
             {
-                marquillas[i].transform.DOScale(new Vector3(tamano, tamano,tamano), 0.1f);
+                labels[i].transform.DOScale(new Vector3(tamano, tamano,tamano), 0.1f);
             }
         }else {
-            banderamarquillas = false;
-            for (int i = 0; i < marquillas.Length; i++)
+            for (int i = 0; i < labels.Length; i++)
             {
-                marquillas[i].transform.DOScale(Vector3.zero, 0.1f);
+                labels[i].transform.DOScale(Vector3.zero, 0.1f);
             }
         }
 
     }
 
     public void ActivarAudio() {
-        Debug.Log(banderaAudio);
-        if (banderaAudio)
+        Image btnImage = btnAudio.GetComponent<Image>();
+        flatAudio = !flatAudio;
+        if (flatAudio)
         {
-            banderaAudio = false;
             asource.Stop();
             asource.Play();
-            btnAudio.transform.GetComponent<Image>().sprite = imgsBtnSonido[1];
+            btnImage.sprite = imgsBtnSonido[1];
             StartCoroutine(esperarAudio());
-           // banderaAudio = false;
         }
         else {
-
             asource.Stop();
-            StopCoroutine(esperarAudio());
             StopAllCoroutines();
-            btnAudio.transform.GetComponent<Image>().sprite = imgsBtnSonido[0];
-            banderaAudio = true;
+            btnImage.sprite = imgsBtnSonido[0];
         }
         
     }
@@ -86,22 +80,29 @@ public class acciones : MonoBehaviour
     }
 
     public void ActivarAnimacion() {
+
         objeto.GetComponent<Animation>().Play();
-        GameObject.Find("btnPlay").transform.DOScale(Vector2.zero, 0.01f);
-        GameObject.Find("btnStop").transform.DOScale(new Vector2(1, 1), 0.01f);
-        if (banderamarquillas) {
-            banderamarquillas = false;
-            for (int i = 0; i < marquillas.Length; i++)
+        Image btnImage = btnAnimacion.GetComponent<Image>();
+        flatAnim = !flatAnim;
+        if (flatAnim) {
+            btnImage.sprite = imgsBtnAnimacion[1];
+            if (flatLabels)
             {
-                marquillas[i].transform.DOScale(Vector3.zero, 0.1f);
+                flatLabels = false;
+                for (int i = 0; i < labels.Length; i++)
+                {
+                    labels[i].transform.DOScale(Vector3.zero, 0.1f);
+                }
             }
+        }
+        else {
+            desactivarAnimacion();
         }
     }
 
     public void desactivarAnimacion() {
         objeto.GetComponent<Animation>().Stop();
-        GameObject.Find("btnStop").transform.DOScale(Vector2.zero, 0.01f);
-        GameObject.Find("btnPlay").transform.DOScale(new Vector2(1, 1), 0.01f);
+        btnAnimacion.transform.GetComponent<Image>().sprite = imgsBtnAnimacion[0];
     }
 
     public void pararAudio()
