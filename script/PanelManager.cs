@@ -5,23 +5,23 @@ using DG.Tweening;
 
 public class PanelManager : MonoBehaviour
 {
-    private string escenaAnterior;
+    private string previousScene;
     
     // Start is called before the first frame update
     void Start()
     {
-        escenaAnterior = PlayerPrefs.GetString("anterior", "none");
-        if (escenaAnterior.Equals("circuito") || escenaAnterior.Equals("gravedad")  || escenaAnterior.Equals("Rectilineo") || escenaAnterior.Equals("circular")) {
-            irTematica(0);
-        } else if (escenaAnterior.Equals("volcan") || escenaAnterior.Equals("transporte") || escenaAnterior.Equals("relieve") || escenaAnterior.Equals("hidrografia") || escenaAnterior.Equals("colombia") || escenaAnterior.Equals("mapaMundi") || escenaAnterior.Equals("maravillas")) {
-            irTematica(1);
-        } else if (escenaAnterior.Equals("planta") || escenaAnterior.Equals("clima") || escenaAnterior.Equals("animales") || escenaAnterior.Equals("VidaMariposa") || escenaAnterior.Equals("anatomia") || escenaAnterior.Equals("estrellas") || escenaAnterior.Equals("atomo") || escenaAnterior.Equals("sistemaSolar") || escenaAnterior.Equals("celulas")) {
-            irTematica(2);
-        } else if (escenaAnterior.Equals("materia") || escenaAnterior.Equals("moleculas") || escenaAnterior.Equals("tablaPeriodica") || escenaAnterior.Equals("reaccionesQuimicas") || escenaAnterior.Equals("alcanos")) {
-            irTematica(3);
-        }else if (escenaAnterior.Equals("pareimpar") || escenaAnterior.Equals("triangulos") || escenaAnterior.Equals("figuras") || escenaAnterior.Equals("poligonos") || escenaAnterior.Equals("fracciones"))
+        previousScene = PlayerPrefs.GetString("anterior", "none");
+        if (previousScene.Equals("circuito") || previousScene.Equals("gravedad")  || previousScene.Equals("Rectilineo") || previousScene.Equals("circular")) {
+            goThematic(0);
+        } else if (previousScene.Equals("volcan") || previousScene.Equals("transporte") || previousScene.Equals("relieve") || previousScene.Equals("hidrografia") || previousScene.Equals("colombia") || previousScene.Equals("mapaMundi") || previousScene.Equals("maravillas")) {
+            goThematic(1);
+        } else if (previousScene.Equals("planta") || previousScene.Equals("clima") || previousScene.Equals("animales") || previousScene.Equals("VidaMariposa") || previousScene.Equals("anatomia") || previousScene.Equals("estrellas") || previousScene.Equals("atomo") || previousScene.Equals("sistemaSolar") || previousScene.Equals("celulas")) {
+            goThematic(2);
+        } else if (previousScene.Equals("materia") || previousScene.Equals("moleculas") || previousScene.Equals("tablaPeriodica") || previousScene.Equals("reaccionesQuimicas") || previousScene.Equals("alcanos")) {
+            goThematic(3);
+        }else if (previousScene.Equals("pareimpar") || previousScene.Equals("triangulos") || previousScene.Equals("figuras") || previousScene.Equals("poligonos") || previousScene.Equals("fracciones"))
         {
-            irTematica(4);
+            goThematic(4);
         }
     }
 
@@ -31,10 +31,10 @@ public class PanelManager : MonoBehaviour
 
     }
 
-    public void abrirPanel(Transform panel) {
+    public void OpenPanel(Transform panel) {
         panel.transform.DOScale(new Vector2(1,1),0.1f);
     }
-    public void cerrarPanel(Transform panel)
+    public void ClosePanel(Transform panel)
     {
         panel.transform.DOScale(Vector2.zero, 0.1f);
     }
@@ -50,7 +50,7 @@ public class PanelManager : MonoBehaviour
         GameObject.Find("PanelTematica").transform.DOScale(new Vector2(1, 1), 0.1f).SetDelay(0.1f);
     }
 
-    public void irTematica(int i) {
+    public void goThematic(int i) {
         GameObject.Find("PanelTematica").transform.DOScale(Vector2.zero, 0.1f);
         GameObject.Find("botonera").transform.DOScale(new Vector2(1,1),0.1f).SetDelay(0.1f);
         switch (i) {
