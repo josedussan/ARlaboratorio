@@ -13,7 +13,6 @@ public class vrmanager : MonoBehaviour
     public Image imagen1, imagen2;
     private transicionTemporal accion;
     private string escena;
-    private bool encontrado = false;
 
     // Start is called before the first frame update
     void Start()

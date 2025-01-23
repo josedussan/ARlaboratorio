@@ -17,23 +17,29 @@ MonoBehaviour:
     titulo: Cono
     objeto: {fileID: 3763712702174763708, guid: d3a1ee965e62f1d4e8dee94442c7eaa9, type: 3}
     image: {fileID: -1724044297, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: f4a4b727ac7cd724cb613a6141a5fd07, type: 3}
   - tipoBtn: 1
     titulo: Cubo
     objeto: {fileID: 1950402927298529401, guid: d17122da251a63c4caca8405742ba317, type: 3}
     image: {fileID: -1653744887, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: f7f4f84f639bf79408de97b258b7b4be, type: 3}
   - tipoBtn: 1
     titulo: Esfera
     objeto: {fileID: 5679579468110487447, guid: a8a8d08be2d35f94f816dea41d75f4b4, type: 3}
     image: {fileID: 23743660, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 9ea05754de1b8bf4cbcee26996859f43, type: 3}
   - tipoBtn: 1
     titulo: "Pir\xE1mide"
     objeto: {fileID: 882547755904706073, guid: 558a067eb0437c848afc322307a94a7e, type: 3}
     image: {fileID: 1149128773, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: c768572b9819422449e89f7b1c1867dd, type: 3}
   - tipoBtn: 1
     titulo: Prisma
     objeto: {fileID: 4005362928437538809, guid: 3b57a51a91c1d9145ac5dd0bd0b898f3, type: 3}
     image: {fileID: -568795455, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 94ae182bc1f830743bcd60803e53ef8f, type: 3}
   - tipoBtn: 1
     titulo: "Rect\xE1ngulo"
     objeto: {fileID: 3980328102505474342, guid: 415e631143e844b4eb4a3f436e964840, type: 3}
     image: {fileID: -1756582933, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: f5dd3b5c7eb3e874191958157d532ce9, type: 3}

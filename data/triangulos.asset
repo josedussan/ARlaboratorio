@@ -17,23 +17,29 @@ MonoBehaviour:
     titulo: "Equil\xE1tero"
     objeto: {fileID: 1099648099365672895, guid: 404c2d6ece9a895418cce0c2ac9da684, type: 3}
     image: {fileID: 1343859798, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: ad5ea699fe2eede4785e781e1cb278e9, type: 3}
   - tipoBtn: 1
     titulo: "Is\xF3sceles"
     objeto: {fileID: 1526207251369784620, guid: 6669bc48e1b9a6b448f149dd34c5663e, type: 3}
     image: {fileID: 706466080, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: ab4198093b24f3640901265ed8307574, type: 3}
   - tipoBtn: 1
     titulo: Escaleno
     objeto: {fileID: 8346403566470003782, guid: d26ceda7cc165b744b6fd92bdec55ed3, type: 3}
     image: {fileID: 559953588, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 7ee16f76f3b89bb4e98011598b027cf0, type: 3}
   - tipoBtn: 1
     titulo: "Ac\xFAtangulo"
     objeto: {fileID: 7636837931106617632, guid: b5f9094105a92dc45867e394db3c906e, type: 3}
     image: {fileID: 522339550, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 00126fa1ca3e630429bcb37fb8e06ef4, type: 3}
   - tipoBtn: 1
     titulo: "Rect\xE1ngulo"
     objeto: {fileID: 8969377643763505598, guid: 5c72dcc8c8981c845b2c3a1fd6f2f82c, type: 3}
     image: {fileID: -1045705642, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 9d1d49e25ceaca94c92ca34a16e3570a, type: 3}
   - tipoBtn: 1
     titulo: "Obtus\xE1ngulo"
     objeto: {fileID: 1368236587474946985, guid: 731516a0440fe6f418280a01d9762e66, type: 3}
     image: {fileID: -369777821, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: b0ccdb46e0a428f4a9a83a9301992f83, type: 3}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 using DG.Tweening;
 
@@ -11,7 +12,12 @@ public class acciones : MonoBehaviour
     private GameObject objeto;
     [SerializeField]
     private AudioSource asource;
+    [SerializeField]
+    private List<Sprite> imgsBtnSonido, imgsBtnAnimacion;
+    [SerializeField]
+    private GameObject btnAudio;    
     private bool banderamarquillas = false;
+    private bool banderaAudio = true;
     //private bool banderaAudio = false;
 
     public UnityEvent evento;
@@ -28,11 +34,11 @@ public class acciones : MonoBehaviour
         
     }
 
-    public void buscarMarquillas() {
+    public void BuscarMarquillas() {
         marquillas = GameObject.FindGameObjectsWithTag("marquilla");
     }
 
-    public void activarMarquilla(float tamano) {
+    public void ActivarMarquilla(float tamano) {
         if (objeto != null) {
             desactivarAnimacion();
         }
@@ -53,28 +59,33 @@ public class acciones : MonoBehaviour
 
     }
 
-    public void activarAudio(bool banderaAudio) {
-        Sequence btnAudio = DOTween.Sequence();
+    public void ActivarAudio() {
+        Debug.Log(banderaAudio);
         if (banderaAudio)
         {
+            banderaAudio = false;
             asource.Stop();
             asource.Play();
-            
-            GameObject.Find("btnSonido").transform.DOScale(Vector2.zero, 0.01f);
-            GameObject.Find("btnQuitarSonido").transform.DOScale(new Vector2(1, 1), 0.01f);
-            btnAudio.Insert(1,GameObject.Find("btnSonido").transform.DOScale(new Vector2(1, 1), 0.01f).SetDelay(asource.clip.length));
-            btnAudio.Insert(1,GameObject.Find("btnQuitarSonido").transform.DOScale(new Vector2(0, 0), 0.01f).SetDelay(asource.clip.length));
+            btnAudio.transform.GetComponent<Image>().sprite = imgsBtnSonido[1];
+            StartCoroutine(esperarAudio());
+           // banderaAudio = false;
         }
         else {
+
             asource.Stop();
-            DOTween.KillAll();
-            GameObject.Find("btnQuitarSonido").transform.DOScale(Vector2.zero, 0.01f);
-            GameObject.Find("btnSonido").transform.DOScale(new Vector2(1, 1), 0.01f);
+            StopCoroutine(esperarAudio());
+            StopAllCoroutines();
+            btnAudio.transform.GetComponent<Image>().sprite = imgsBtnSonido[0];
+            banderaAudio = true;
         }
         
     }
+    IEnumerator esperarAudio() {
+        yield return new WaitForSeconds(asource.clip.length);
+        btnAudio.transform.GetComponent<Image>().sprite = imgsBtnSonido[0];
+    }
 
-    public void activarAnimacion() {
+    public void ActivarAnimacion() {
         objeto.GetComponent<Animation>().Play();
         GameObject.Find("btnPlay").transform.DOScale(Vector2.zero, 0.01f);
         GameObject.Find("btnStop").transform.DOScale(new Vector2(1, 1), 0.01f);

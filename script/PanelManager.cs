@@ -11,11 +11,11 @@ public class PanelManager : MonoBehaviour
     void Start()
     {
         escenaAnterior = PlayerPrefs.GetString("anterior", "none");
-        if (escenaAnterior.Equals("circuito") || escenaAnterior.Equals("gravedad") || escenaAnterior.Equals("clima") || escenaAnterior.Equals("Rectilineo") || escenaAnterior.Equals("circular")) {
+        if (escenaAnterior.Equals("circuito") || escenaAnterior.Equals("gravedad")  || escenaAnterior.Equals("Rectilineo") || escenaAnterior.Equals("circular")) {
             irTematica(0);
         } else if (escenaAnterior.Equals("volcan") || escenaAnterior.Equals("transporte") || escenaAnterior.Equals("relieve") || escenaAnterior.Equals("hidrografia") || escenaAnterior.Equals("colombia") || escenaAnterior.Equals("mapaMundi") || escenaAnterior.Equals("maravillas")) {
             irTematica(1);
-        } else if (escenaAnterior.Equals("planta")  || escenaAnterior.Equals("animales") || escenaAnterior.Equals("VidaMariposa") || escenaAnterior.Equals("anatomia") || escenaAnterior.Equals("estrellas") || escenaAnterior.Equals("atomo") || escenaAnterior.Equals("sistemaSolar") || escenaAnterior.Equals("celulas")) {
+        } else if (escenaAnterior.Equals("planta") || escenaAnterior.Equals("clima") || escenaAnterior.Equals("animales") || escenaAnterior.Equals("VidaMariposa") || escenaAnterior.Equals("anatomia") || escenaAnterior.Equals("estrellas") || escenaAnterior.Equals("atomo") || escenaAnterior.Equals("sistemaSolar") || escenaAnterior.Equals("celulas")) {
             irTematica(2);
         } else if (escenaAnterior.Equals("materia") || escenaAnterior.Equals("moleculas") || escenaAnterior.Equals("tablaPeriodica") || escenaAnterior.Equals("reaccionesQuimicas") || escenaAnterior.Equals("alcanos")) {
             irTematica(3);

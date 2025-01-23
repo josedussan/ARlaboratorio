@@ -10,8 +10,8 @@ public class InputController : MonoBehaviour
     private CharacterController CharacterController;
     private Transform camara;
     //public Rigidbody rb;
-    [SerializeField]
-    private float rotationSpeed=700f;
+    /*[SerializeField]
+    private float rotationSpeed=700f;*/
     [SerializeField]
     private float speed = 200f;
     public void Start()

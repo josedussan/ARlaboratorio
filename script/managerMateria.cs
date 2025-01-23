@@ -14,6 +14,7 @@ public class managerMateria : MonoBehaviour
     private TMP_Text frente, trasero;
     [SerializeField]
     private GameObject hielos, liquido, gas;
+    private Vector3 posIniHielos;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,14 @@ public class managerMateria : MonoBehaviour
     }
     private void cambiarTexto(string nombre) {
         frente.text = nombre;
-        trasero.text = nombre;
+        //trasero.text = nombre;
+    }
+
+    public void PosicionHielos() {
+        posIniHielos = hielos.transform.position;
+    }
+    public void asignarPosicionHielos() {
+        hielos.transform.localPosition = posIniHielos;
     }
 
     // Update is called once per frame
@@ -36,6 +44,7 @@ public class managerMateria : MonoBehaviour
             cambiarTexto("Estado Líquido");
 
         } else if (valorTermometro > 0 && valorTermometro < 2.5) {
+            
             hielos.SetActive(true);
             liquido.SetActive(false);
             cambiarTexto("Estado Sólido");

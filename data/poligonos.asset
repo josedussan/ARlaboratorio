@@ -17,27 +17,34 @@ MonoBehaviour:
     titulo: "Hept\xE1gono"
     objeto: {fileID: 6999812701571275704, guid: 188ab0bb138601d4594de27ee302e949, type: 3}
     image: {fileID: 1471927517, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 396d5a75a5ef84645a089572f512c18b, type: 3}
   - tipoBtn: 1
     titulo: "Hex\xE1gono"
     objeto: {fileID: 4366120242067930508, guid: e24830ed98efff34b8acf775d6a3b2ce, type: 3}
     image: {fileID: 48501650, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: ff43fd15c1928394bb083410df84d607, type: 3}
   - tipoBtn: 1
     titulo: "Oct\xE1gono"
     objeto: {fileID: 3036150124071733122, guid: 698df589c2ef3cf40b5567b2f81c241a, type: 3}
     image: {fileID: 606296591, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 0934c03192a17574d8b38f4001c2925d, type: 3}
   - tipoBtn: 1
     titulo: "Pent\xE1gono"
     objeto: {fileID: 5647533222124476770, guid: 3fefb165c7390c740845d13510e83ef2, type: 3}
     image: {fileID: -1746193668, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: c9d1ec2d268165c4eadca435065eef34, type: 3}
   - tipoBtn: 1
     titulo: "Tet\xE1gono"
     objeto: {fileID: 6424191271378738199, guid: 61e7d4b7d0a80ea4e9e265dd0556e489, type: 3}
     image: {fileID: 1063880872, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: cbd99b672c1e16341abc060897a05956, type: 3}
   - tipoBtn: 1
     titulo: "Tr\xEDgono"
     objeto: {fileID: 5635151705970524303, guid: 117b3d454bbc977449f693ccad26e11b, type: 3}
     image: {fileID: 1343859798, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 3fdba283be24b4346a65886e8440fe91, type: 3}
   - tipoBtn: 1
     titulo: Trapecio
     objeto: {fileID: 4949434825850248650, guid: 51cad8cd327146c4abeb73b824847a40, type: 3}
     image: {fileID: -1584048967, guid: e948baaf51f10b747a12a313b660e920, type: 3}
+    sonido: {fileID: 8300000, guid: 3c1e638acab5a0e4582490c6ed13cba1, type: 3}
