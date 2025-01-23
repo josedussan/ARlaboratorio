@@ -6,31 +6,31 @@ using TMPro;
 
 public class anatomiaManager : MonoBehaviour
 {
-    private GameObject[] leyendaCirculacion, leyendaOseo, leyendaUrinario, leyendaNervioso, leyendaDigestivo, leyendaRespiratorio,leyendaMuscular;
+    private GameObject[] circulatoryLabels, boneLabels, urinaryLabels, nervousLabels, digestiveLabels, respiratoryLabels,muscularLabels;
     [SerializeField]
     private List<GameObject> sistemas;
     [SerializeField]
-    private GameObject mitadCuerpo;
+    private GameObject halfBody;
     [SerializeField]
     private AudioSource asource;
     [SerializeField]
-    private List<AudioClip> explicaciones;
+    private List<AudioClip> descriptions;
     [SerializeField]
-    private TMP_Text texto;
+    private TMP_Text text;
     [SerializeField]
-    private GameObject particulas, contenedor;
+    private GameObject particles, container;
     // Start is called before the first frame update
     void Start()
     {
-        leyendaCirculacion = GameObject.FindGameObjectsWithTag("circulatorio");
-        leyendaOseo = GameObject.FindGameObjectsWithTag("oseo");
-        leyendaUrinario = GameObject.FindGameObjectsWithTag("urinario");
-        leyendaNervioso= GameObject.FindGameObjectsWithTag("nervioso");
-        leyendaDigestivo = GameObject.FindGameObjectsWithTag("digestivo");
-        leyendaRespiratorio = GameObject.FindGameObjectsWithTag("respiratorio");
-        leyendaMuscular = GameObject.FindGameObjectsWithTag("muscular");
+        circulatoryLabels = GameObject.FindGameObjectsWithTag("circulatorio");
+        boneLabels = GameObject.FindGameObjectsWithTag("oseo");
+        urinaryLabels = GameObject.FindGameObjectsWithTag("urinario");
+        nervousLabels= GameObject.FindGameObjectsWithTag("nervioso");
+        digestiveLabels = GameObject.FindGameObjectsWithTag("digestivo");
+        respiratoryLabels = GameObject.FindGameObjectsWithTag("respiratorio");
+        muscularLabels = GameObject.FindGameObjectsWithTag("muscular");
 
-        Invoke("desactivarLeyendas",1);
+        Invoke("DesabledLabels",1);
     }
 
     // Update is called once per frame
@@ -39,147 +39,107 @@ public class anatomiaManager : MonoBehaviour
         
     }
 
-    private void cambiarTexto(string nombre) {
-        texto.text = nombre;
+    private void changeText(string nombre) {
+        text.text = nombre;
     }
 
-    public void quitarPiel() {
-        if (mitadCuerpo.activeSelf)
+    public void DesabledSkin() {
+        if (halfBody.activeSelf)
         {
-            mitadCuerpo.SetActive(false);
+            halfBody.SetActive(false);
         }
         else {
-            mitadCuerpo.SetActive(true);
+            halfBody.SetActive(true);
         }
     }
 
-    public void activarSistema(int num) {
-        desactivarTodo();
-        GameObject efecto = Instantiate(particulas, contenedor.transform);
+    public void EnabledSystems(int num) {
+        DesabledAll();
+        GameObject efecto = Instantiate(particles, container.transform);
         sistemas[num].SetActive(true);
         asource.Stop();
-        asource.PlayOneShot(explicaciones[num]);
+        asource.PlayOneShot(descriptions[num]);
         switch (num) {
             case 0:
-                cambiarTexto("Sistema Circulatorio");
-                for (int i = 0; i < leyendaCirculacion.Length; i++)
+                changeText("Sistema Circulatorio");
+                for (int i = 0; i < circulatoryLabels.Length; i++)
                 {
-                    leyendaCirculacion[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    circulatoryLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
             case 1:
-                cambiarTexto("Sistema Oseo");
-                for (int i = 0; i < leyendaOseo.Length; i++)
+                changeText("Sistema Oseo");
+                for (int i = 0; i < boneLabels.Length; i++)
                 {
-                    leyendaOseo[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    boneLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
             case 2:
-                cambiarTexto("Sistema Urinario");
-                for (int i = 0; i < leyendaUrinario.Length; i++)
+                changeText("Sistema Urinario");
+                for (int i = 0; i < urinaryLabels.Length; i++)
                 {
-                    leyendaUrinario[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    urinaryLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
             case 3:
-                cambiarTexto("Sistema Nervioso");
-                for (int i = 0; i < leyendaNervioso.Length; i++)
+                changeText("Sistema Nervioso");
+                for (int i = 0; i < nervousLabels.Length; i++)
                 {
-                    leyendaNervioso[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    nervousLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
             case 4:
-                cambiarTexto("Sistema Digestivo");
-                for (int i = 0; i < leyendaDigestivo.Length; i++)
+                changeText("Sistema Digestivo");
+                for (int i = 0; i < digestiveLabels.Length; i++)
                 {
-                    leyendaDigestivo[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    digestiveLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
             case 5:
-                cambiarTexto("Sistema Respiratorio");
-                for (int i = 0; i < leyendaRespiratorio.Length; i++)
+                changeText("Sistema Respiratorio");
+                for (int i = 0; i < respiratoryLabels.Length; i++)
                 {
-                    leyendaRespiratorio[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    respiratoryLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
             case 6:
-                cambiarTexto("Sistema Muscular");
-                for (int i = 0; i < leyendaMuscular.Length; i++)
+                changeText("Sistema Muscular");
+                for (int i = 0; i < muscularLabels.Length; i++)
                 {
-                    leyendaMuscular[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
+                    muscularLabels[i].transform.DOScale(new Vector3(0.03215058f, 0.02813862f, 0.0185358f), 0.1f);
                 }
                 break;
-
-
-
-
         }
     }
 
-    private void desactivarTodo() {
+    private void DesabledLabels(GameObject[] list) {
+        for (int i = 0; i < list.Length; i++)
+        {
+            list[i].transform.DOScale(Vector3.zero, 0.1f);
+        }
+    }
+
+    private void DesabledAll() {
         for (int i=0;i<sistemas.Count;i++) {
             sistemas[i].SetActive(false);
         }
-        for (int i = 0; i < leyendaCirculacion.Length; i++)
-        {
-            leyendaCirculacion[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaMuscular.Length; i++)
-        {
-            leyendaMuscular[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaUrinario.Length; i++)
-        {
-            leyendaUrinario[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaDigestivo.Length; i++)
-        {
-            leyendaDigestivo[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaRespiratorio.Length; i++)
-        {
-            leyendaRespiratorio[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaOseo.Length; i++)
-        {
-            leyendaOseo[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaNervioso.Length; i++)
-        {
-            leyendaNervioso[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-
+        DesabledLabels(circulatoryLabels);
+        DesabledLabels(muscularLabels);
+        DesabledLabels(urinaryLabels);
+        DesabledLabels(digestiveLabels);
+        DesabledLabels(respiratoryLabels);
+        DesabledLabels(nervousLabels);
+        DesabledLabels(boneLabels);
     }
 
 
-    private void desactivarLeyendas() {
-        for (int i = 0; i < leyendaCirculacion.Length; i++)
-        {
-            leyendaCirculacion[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaMuscular.Length; i++)
-        {
-            leyendaMuscular[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaUrinario.Length; i++)
-        {
-            leyendaUrinario[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaDigestivo.Length; i++)
-        {
-            leyendaDigestivo[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaRespiratorio.Length; i++)
-        {
-            leyendaRespiratorio[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaOseo.Length; i++)
-        {
-            leyendaOseo[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
-        for (int i = 0; i < leyendaNervioso.Length; i++)
-        {
-            leyendaNervioso[i].transform.DOScale(Vector3.zero, 0.1f);
-        }
+    private void DesabledLabels() {
+        DesabledLabels(circulatoryLabels);
+        DesabledLabels(muscularLabels);
+        DesabledLabels(urinaryLabels);
+        DesabledLabels(digestiveLabels);
+        DesabledLabels(respiratoryLabels);
+        DesabledLabels(nervousLabels);
+        DesabledLabels(boneLabels);
     }
 }
