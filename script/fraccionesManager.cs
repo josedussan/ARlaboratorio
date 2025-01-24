@@ -17,7 +17,7 @@ public class fraccionesManager : MonoBehaviour
     private AudioSource asource;
     [SerializeField]
     private List<AudioClip> sonidos;
-    private bool banderaPanel = true;
+    private bool flatPanel = false;
     [SerializeField]
     private GameObject particulas;
     private int numero, opcionAnterior=2;
@@ -39,17 +39,16 @@ public class fraccionesManager : MonoBehaviour
             opciones[i].transform.GetChild(2).gameObject.GetComponent<TMP_Text>().text = Random.Range(5, objetos.Count).ToString();
         }
     }
-    public void CerrarPanel(RectTransform panel)
+    public void ClosePanel(RectTransform panel)
     {
-        if (banderaPanel)
+        flatPanel = !flatPanel;
+        if (flatPanel)
         {
             panel.DOScale(Vector3.zero, 0.1f);
-            banderaPanel = false;
         }
         else
         {
             panel.DOScale(new Vector3(1, 1, 1), 0.1f);
-            banderaPanel = true;
         }
 
     }
@@ -72,7 +71,6 @@ public class fraccionesManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("incorrecto");
             MostrarMensajeRespuesta(incorrecto);
             asource.PlayOneShot(sonidos[1]);
         }
