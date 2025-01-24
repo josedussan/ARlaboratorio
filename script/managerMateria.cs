@@ -13,7 +13,7 @@ public class managerMateria : MonoBehaviour
     [SerializeField]
     private TMP_Text frente, trasero;
     [SerializeField]
-    private GameObject hielos, liquido, gas;
+    private GameObject solido, liquido, gas;
     private Vector3 posIniHielos;
 
     // Start is called before the first frame update
@@ -21,51 +21,72 @@ public class managerMateria : MonoBehaviour
     {
         
     }
-    private void cambiarTexto(string nombre) {
+    private void ChangeText(string nombre) {
         frente.text = nombre;
         //trasero.text = nombre;
     }
 
     public void PosicionHielos() {
-        posIniHielos = hielos.transform.position;
+        posIniHielos = solido.transform.position;
     }
     public void asignarPosicionHielos() {
-        hielos.transform.localPosition = posIniHielos;
+        solido.transform.localPosition = posIniHielos;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (valorTermometro > 2.5f && valorTermometro < 5) {
-            liquido.SetActive(true);
-            hielos.SetActive(false);
-            gas.SetActive(false);
-            liquido.transform.DOScaleY(2*termometro.value - 0.8f, 0.1f);
-            cambiarTexto("Estado Líquido");
 
-        } else if (valorTermometro > 0 && valorTermometro < 2.5) {
-            
-            hielos.SetActive(true);
-            liquido.SetActive(false);
-            cambiarTexto("Estado Sólido");
-        } else if (valorTermometro > 7 && valorTermometro < 10) {
-            gas.SetActive(true);
-            liquido.SetActive(false);
-            cambiarTexto("Estado Gaseoso");
-        } else if (valorTermometro > 5 && valorTermometro < 7.5f) {
-            liquido.SetActive(true);
-            hielos.SetActive(false);
-            gas.SetActive(false);
-            liquido.transform.DOScaleY(15 - termometro.value, 0.1f);
-            cambiarTexto("Estado Líquido");
-        }
-
-        if (hielos.activeSelf || gas.activeSelf) {
-            liquido.SetActive(false);
-        }
     }
 
-    public void SliderControlador(float valor) {
-        valorTermometro = valor;
+    private void ChangeState(float valor) {
+        if (valorTermometro > 2.5f && valorTermometro < 5) {
+             ChangeToLiquidState(true);
+         } else if (valorTermometro > 0 && valorTermometro < 2.5) {
+             ChangeToSolidState();
+         } else if (valorTermometro > 7 && valorTermometro < 10) {
+             ChangeToGaseousState();
+
+         } else if (valorTermometro > 5 && valorTermometro < 7.5f) {
+            ChangeToLiquidState(false);
+        }
+
+         if (solido.activeSelf || gas.activeSelf) {
+             liquido.SetActive(false);
+         }
+    }
+
+    public void SliderControlador() {
+        valorTermometro = termometro.value;
+        ChangeState(valorTermometro);
+    }
+
+    private void ChangeToLiquidState(bool flat) {
+        liquido.SetActive(true);
+        solido.SetActive(false);
+        gas.SetActive(false);
+        if (flat)
+        {
+            //menor a 5
+            liquido.transform.DOScaleY(2 * termometro.value - 0.8f, 0.1f);
+        }
+        else {
+            //mayor a 5
+            liquido.transform.DOScaleY(15 - termometro.value, 0.1f);
+        }
+        ChangeText("Estado Líquido");
+    }
+    private void ChangeToSolidState()
+    {
+
+        solido.SetActive(true);
+        liquido.SetActive(false);
+        ChangeText("Estado Sólido");
+    }
+    private void ChangeToGaseousState()
+    {
+        gas.SetActive(true);
+        liquido.SetActive(false);
+        ChangeText("Estado Gaseoso");
     }
 }
