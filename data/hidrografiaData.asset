@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: hidrografiaData
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 1
+    titulo: 
+    objeto: {fileID: 528866755348153252, guid: cffe95784bf18a8418326aa529e9959a, type: 3}
+    image: {fileID: 1174962605, guid: 843a1c085ff07ec4fb653c1df3b19172, type: 3}
+    sonido: {fileID: 8300000, guid: 3a1a702141c63ec4c9192b06291681f5, type: 3}
+  - tipoBtn: 1
+    titulo: 
+    objeto: {fileID: 2699399744046388369, guid: d7398fbca5cea804589f148d81d6d985, type: 3}
+    image: {fileID: -1991378170, guid: 843a1c085ff07ec4fb653c1df3b19172, type: 3}
+    sonido: {fileID: 8300000, guid: b869099a7f1b0c84badd8475edd31f01, type: 3}
+  - tipoBtn: 1
+    titulo: 
+    objeto: {fileID: 8123395216032819145, guid: 00920f69a5bdd014e9c2288ab2f5aed7, type: 3}
+    image: {fileID: 2096466517, guid: 843a1c085ff07ec4fb653c1df3b19172, type: 3}
+    sonido: {fileID: 8300000, guid: cd9d72a5fd4c1ed49ad86c835d991caf, type: 3}
