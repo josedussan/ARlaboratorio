@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-
 public class btnObjectController : MonoBehaviour
 {
     public Text tituloBtn;
@@ -12,7 +11,7 @@ public class btnObjectController : MonoBehaviour
 
     public void Init(objeto3d data)
     {
-        switch(data.tipoBtn){
+        switch (data.tipoBtn) {
             case tipoBtn.text:
                 imagenBtn.gameObject.SetActive(false);
                 tituloBtn.gameObject.SetActive(true);

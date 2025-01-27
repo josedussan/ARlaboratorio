@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14e72d8c046acd4cb7c32948f017855, type: 3}
+  m_Name: moleculasData
+  m_EditorClassIdentifier: 
+  objetos:
+  - tipoBtn: 0
+    titulo: C2H4O2
+    objeto: {fileID: 3521031550308460550, guid: 7c45da6f7cc5b344c855a4a24ece32e4, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 0}
+  - tipoBtn: 0
+    titulo: H2O
+    objeto: {fileID: 2969493252469440404, guid: 92122ca466d43874c8107ef61744eb19, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 0}
+  - tipoBtn: 0
+    titulo: H2CO3
+    objeto: {fileID: 8288063978891401168, guid: d3197a2987d3b8a43a93a4840f15849b, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 0}
+  - tipoBtn: 0
+    titulo: C6H6
+    objeto: {fileID: 5650511908173944819, guid: 41533922c6dc41744b3781c57a1c17d0, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 0}
+  - tipoBtn: 0
+    titulo: P
+    objeto: {fileID: 6229136859124490751, guid: b5e7a910aaf180b4784f2b7def0829a1, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 0}
+  - tipoBtn: 0
+    titulo: C6H12O6
+    objeto: {fileID: 8267094268507601173, guid: 1515f9effad0b9649bab895fbd259c0e, type: 3}
+    image: {fileID: 0}
+    sonido: {fileID: 0}
